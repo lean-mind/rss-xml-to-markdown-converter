@@ -10,6 +10,14 @@ struct RSSFeed {
 #[derive(Debug, Serialize, Deserialize, PartialEq)]
 struct Channel {
     title: String,
+    description: String,
+    owner: Owner,
+}
+
+#[derive(Debug, Serialize, Deserialize, PartialEq)]
+struct Owner {
+    name: String,
+    email: String,
 }
 
 fn read_xml(filename: &str) -> RSSFeed {
@@ -29,7 +37,12 @@ mod tests {
             read_xml("example.xml"),
             RSSFeed {
                 channel: Channel {
-                    title: String::from("Ni cero, ni uno")
+                    title: String::from("Ni cero, ni uno"),
+                    description: String::from("Un punto de vista diferente, peculiar y atrevido sobre la industria del desarrollo de software y sobre las habilidades que más se necesitan en este mundo tecnológico que en verdad gira en torno a las personas.\n\nCarlos Blé, fundador de varias empresas y actual director de Lean Mind, narra sus experiencias y cuenta con colaboraciones de profesionales de diversos ámbitos."),
+                    owner: Owner {
+                        name: String::from("Carlos Blé"),
+                        email: String::from("carlos@carlosble.com")
+                    }
                 }
             }
         );
