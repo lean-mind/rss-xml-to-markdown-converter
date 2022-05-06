@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://podcast.carlosble.com/wp-content/plugins/seriously-simple-podcasting/templates/feed-stylesheet.xsl"?><rss version="2.0"
+	 xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns:atom="http://www.w3.org/2005/Atom"
+	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	 xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	 xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+	 xmlns:podcast="https://podcastindex.org/namespace/1.0"
+	>
+		<channel>
+		<title>Ni cero, ni uno</title>
+		<atom:link href="https://podcast.carlosble.com/feed/podcast" rel="self" type="application/rss+xml"/>
+		<link>https://podcast.carlosble.com/</link>
+		<description>Un punto de vista diferente, peculiar y atrevido sobre la industria del desarrollo de software y sobre las habilidades que más se necesitan en este mundo tecnológico que en verdad gira en torno a las personas.
+
+Carlos Blé, fundador de varias empresas y actual director de Lean Mind, narra sus experiencias y cuenta con colaboraciones de profesionales de diversos ámbitos.</description>
+		<lastBuildDate>Thu, 14 Apr 2022 15:58:24 +0000</lastBuildDate>
+		<language>es</language>
+		<copyright>© 2021 Savvily</copyright>
+		<itunes:subtitle>Habilidades esenciales en un mundo tecnológico</itunes:subtitle>
+		<itunes:author>Carlos Blé</itunes:author>
+					<itunes:type>episodic</itunes:type>
+				<itunes:summary>Un punto de vista diferente, peculiar y atrevido sobre la industria del desarrollo de software y sobre las habilidades que más se necesitan en este mundo tecnológico que en verdad gira en torno a las personas.
+
+Carlos Blé, fundador de varias empresas y actual director de Lean Mind, narra sus experiencias y cuenta con colaboraciones de profesionales de diversos ámbitos.</itunes:summary>
+		<itunes:owner>
+			<itunes:name>Carlos Blé</itunes:name>
+			<itunes:email>carlos@carlosble.com</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>clean</itunes:explicit>
+					<itunes:complete>yes</itunes:complete>
+		<itunes:image href="https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg"></itunes:image>
+			<image>
+				<url>https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg</url>
+				<title>Ni cero, ni uno</title>
+				<link>https://podcast.carlosble.com/</link>
+			</image>
+		<itunes:category text="Society &amp; Culture">
+			<itunes:category text="Philosophy"></itunes:category>
+		</itunes:category>
+		<itunes:category text="Technology">
+							</itunes:category>
+		<itunes:category text="Education">
+									<itunes:category text="How to"></itunes:category>
+							</itunes:category>
+		<podcast:locked owner="carlos@carlosble.com">yes</podcast:locked>
+		<podcast:guid>dcf1e251-d17c-5ef0-ba70-1c616d08aecf</podcast:guid>
+		<generator>https://wordpress.org/?v=5.9.3</generator>
+
+<item>
+	<title>E32: ¿Para qué impartir una ponencia?</title>
+	<link>https://podcast.carlosble.com/podcast/e32-para-que-impartir-una-ponencia/</link>
+	<pubDate>Thu, 14 Apr 2022 15:58:24 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1220</guid>
+	<description><![CDATA[¿Para qué dar una charla?, ¿por qué exponerse?, ¿qué puedes aportar cuando parece que ya está todo en internet?. En este episodio converso con Adrián Ferrera, Francisco Mesa y Miguel Cabrera. Además, contamos con mensajes grabados de ponentes que me encantan, Yodra López, Jorge J. Barroso, Aida Albarrán y Alexandra Rivero. Contribuciones: Yodra López (1:07:09)...]]></description>
+	<itunes:subtitle><![CDATA[¿Para qué dar una charla?, ¿por qué exponerse?, ¿qué puedes aportar cuando parece que ya está todo en internet?. En este episodio converso con Adrián Ferrera, Francisco Mesa y Miguel Cabrera. Además, contamos con mensajes grabados de ponentes que me enca]]></itunes:subtitle>
+								<content:encoded><![CDATA[¿Para qué dar una charla?, ¿por qué exponerse?, ¿qué puedes aportar cuando parece que ya está todo en internet?. En este episodio converso con Adrián Ferrera, Francisco Mesa y Miguel Cabrera. Además, contamos con mensajes grabados de ponentes que me encantan, Yodra López, Jorge J. Barroso, Aida Albarrán y Alexandra Rivero. Contribuciones: Yodra López (1:07:09)...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1220/e32-para-que-impartir-una-ponencia.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[¿Para qué dar una charla?, ¿por qué exponerse?, ¿qué puedes aportar cuando parece que ya está todo en internet?. En este episodio converso con Adrián Ferrera, Francisco Mesa y Miguel Cabrera. Además, contamos con mensajes grabados de ponentes que me encantan, Yodra López, Jorge J. Barroso, Aida Albarrán y Alexandra Rivero. Contribuciones: Yodra López (1:07:09)...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[¿Para qué dar una charla?, ¿por qué exponerse?, ¿qué puedes aportar cuando parece que ya está todo en internet?. En este episodio converso con Adrián Ferrera, Francisco Mesa y Miguel Cabrera. Además, contamos con mensajes grabados de ponentes que me encantan, Yodra López, Jorge J. Barroso, Aida Albarrán y Alexandra Rivero. Contribuciones: Yodra López (1:07:09)...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E31: El sendero de la maestría (III)</title>
+	<link>https://podcast.carlosble.com/podcast/e31-el-sendero-de-la-maestria-iii/</link>
+	<pubDate>Fri, 18 Mar 2022 09:43:27 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1216</guid>
+	<description><![CDATA[Terminamos la serie de epidosodios sobre aprendizaje (por ahora), con el gran Jose Enrique Rodríguez Huerta, actualmente director de Codurance España. En esta conversación José nos habla de cultura empresarial, liderazgo, carrera profesional, trabajo en equipo y por supuesto, aprendizaje. Recursos citados en el episodio (y otros que olvidé citar): Libro: Tribal Leadership Trabajar en...]]></description>
+	<itunes:subtitle><![CDATA[Terminamos la serie de epidosodios sobre aprendizaje (por ahora), con el gran Jose Enrique Rodríguez Huerta, actualmente director de Codurance España. En esta conversación José nos habla de cultura empresarial, liderazgo, carrera profesional, trabajo en ]]></itunes:subtitle>
+								<content:encoded><![CDATA[Terminamos la serie de epidosodios sobre aprendizaje (por ahora), con el gran Jose Enrique Rodríguez Huerta, actualmente director de Codurance España. En esta conversación José nos habla de cultura empresarial, liderazgo, carrera profesional, trabajo en equipo y por supuesto, aprendizaje. Recursos citados en el episodio (y otros que olvidé citar): Libro: Tribal Leadership Trabajar en...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1216/e31-el-sendero-de-la-maestria-iii.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Terminamos la serie de epidosodios sobre aprendizaje (por ahora), con el gran Jose Enrique Rodríguez Huerta, actualmente director de Codurance España. En esta conversación José nos habla de cultura empresarial, liderazgo, carrera profesional, trabajo en equipo y por supuesto, aprendizaje. Recursos citados en el episodio (y otros que olvidé citar): Libro: Tribal Leadership Trabajar en...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Terminamos la serie de epidosodios sobre aprendizaje (por ahora), con el gran Jose Enrique Rodríguez Huerta, actualmente director de Codurance España. En esta conversación José nos habla de cultura empresarial, liderazgo, carrera profesional, trabajo en equipo y por supuesto, aprendizaje. Recursos citados en el episodio (y otros que olvidé citar): Libro: Tribal Leadership Trabajar en...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E30: Salud mental</title>
+	<link>https://podcast.carlosble.com/podcast/e30-salud-mental/</link>
+	<pubDate>Thu, 24 Feb 2022 14:46:07 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1213</guid>
+	<description><![CDATA[Parece mentira que los temas de salud mental sigan siendo tabú, pero en muchos entornos y culturas, aún lo son, por desconocimiento, por miedo o por cualquier otro motivo. La mayoría de las personas vamos a experimentar un deficit de salud mental en algún momento de nuestras vidas. Es más común de lo que parece....]]></description>
+	<itunes:subtitle><![CDATA[Parece mentira que los temas de salud mental sigan siendo tabú, pero en muchos entornos y culturas, aún lo son, por desconocimiento, por miedo o por cualquier otro motivo. La mayoría de las personas vamos a experimentar un deficit de salud mental en algú]]></itunes:subtitle>
+								<content:encoded><![CDATA[Parece mentira que los temas de salud mental sigan siendo tabú, pero en muchos entornos y culturas, aún lo son, por desconocimiento, por miedo o por cualquier otro motivo. La mayoría de las personas vamos a experimentar un deficit de salud mental en algún momento de nuestras vidas. Es más común de lo que parece....]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1213/e30-salud-mental.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Parece mentira que los temas de salud mental sigan siendo tabú, pero en muchos entornos y culturas, aún lo son, por desconocimiento, por miedo o por cualquier otro motivo. La mayoría de las personas vamos a experimentar un deficit de salud mental en algún momento de nuestras vidas. Es más común de lo que parece....]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Parece mentira que los temas de salud mental sigan siendo tabú, pero en muchos entornos y culturas, aún lo son, por desconocimiento, por miedo o por cualquier otro motivo. La mayoría de las personas vamos a experimentar un deficit de salud mental en algún momento de nuestras vidas. Es más común de lo que parece....]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E29: El sendero de la maestría (II)</title>
+	<link>https://podcast.carlosble.com/podcast/e29-el-sendero-de-la-maestria-ii/</link>
+	<pubDate>Mon, 31 Jan 2022 19:09:49 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1209</guid>
+	<description><![CDATA[Este episodio es una conversación con mi amiga, coach personal y también coach de nuestro equipo, Rosa Elvira González (Adelante Talento). Ella nos cuenta su punto de vista y su experiencia en las relaciones de aprendizaje y de sinergia, tanto entre individuos, como, dentro de las organizaciones. Personas invitadas: Rosa Elvira González Newsletters: de Carlos...]]></description>
+	<itunes:subtitle><![CDATA[Este episodio es una conversación con mi amiga, coach personal y también coach de nuestro equipo, Rosa Elvira González (Adelante Talento). Ella nos cuenta su punto de vista y su experiencia en las relaciones de aprendizaje y de sinergia, tanto entre indi]]></itunes:subtitle>
+								<content:encoded><![CDATA[Este episodio es una conversación con mi amiga, coach personal y también coach de nuestro equipo, Rosa Elvira González (Adelante Talento). Ella nos cuenta su punto de vista y su experiencia en las relaciones de aprendizaje y de sinergia, tanto entre individuos, como, dentro de las organizaciones. Personas invitadas: Rosa Elvira González Newsletters: de Carlos...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1209/e29-el-sendero-de-la-maestria-ii.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Este episodio es una conversación con mi amiga, coach personal y también coach de nuestro equipo, Rosa Elvira González (Adelante Talento). Ella nos cuenta su punto de vista y su experiencia en las relaciones de aprendizaje y de sinergia, tanto entre individuos, como, dentro de las organizaciones. Personas invitadas: Rosa Elvira González Newsletters: de Carlos...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Este episodio es una conversación con mi amiga, coach personal y también coach de nuestro equipo, Rosa Elvira González (Adelante Talento). Ella nos cuenta su punto de vista y su experiencia en las relaciones de aprendizaje y de sinergia, tanto entre individuos, como, dentro de las organizaciones. Personas invitadas: Rosa Elvira González Newsletters: de Carlos...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E28: El sendero de la maestría (I)</title>
+	<link>https://podcast.carlosble.com/podcast/e28-el-sendero-de-la-maestria-i/</link>
+	<pubDate>Fri, 31 Dec 2021 18:20:53 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1206</guid>
+	<description><![CDATA[Esta serie de episodios va sobre el aprendizaje a través de la relación con personas y situaciones de las que podemos aprender. Este episodio cuenta algunas historias y puntos de vista personales. En los siguientes hay conversaciones y puntos de vista diferentes. Recursos citados o relacionados con el episodio: Maestría en la época de los...]]></description>
+	<itunes:subtitle><![CDATA[Esta serie de episodios va sobre el aprendizaje a través de la relación con personas y situaciones de las que podemos aprender. Este episodio cuenta algunas historias y puntos de vista personales. En los siguientes hay conversaciones y puntos de vista di]]></itunes:subtitle>
+								<content:encoded><![CDATA[Esta serie de episodios va sobre el aprendizaje a través de la relación con personas y situaciones de las que podemos aprender. Este episodio cuenta algunas historias y puntos de vista personales. En los siguientes hay conversaciones y puntos de vista diferentes. Recursos citados o relacionados con el episodio: Maestría en la época de los...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1206/e28-el-sendero-de-la-maestria-i.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Esta serie de episodios va sobre el aprendizaje a través de la relación con personas y situaciones de las que podemos aprender. Este episodio cuenta algunas historias y puntos de vista personales. En los siguientes hay conversaciones y puntos de vista diferentes. Recursos citados o relacionados con el episodio: Maestría en la época de los...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Esta serie de episodios va sobre el aprendizaje a través de la relación con personas y situaciones de las que podemos aprender. Este episodio cuenta algunas historias y puntos de vista personales. En los siguientes hay conversaciones y puntos de vista diferentes. Recursos citados o relacionados con el episodio: Maestría en la época de los...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E27: Trabajo en remoto y productividad</title>
+	<link>https://podcast.carlosble.com/podcast/e27-trabajo-en-remoto-y-productividad/</link>
+	<pubDate>Sat, 18 Dec 2021 12:12:23 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1202</guid>
+	<description><![CDATA[Ahora que muchos trabajamos en remoto la mayoría del tiempo, estamos trasladando los clásicos hábitos improductivos de las oficinas a casa. Incluso estamos adquiriendo peores hábitos. Intentamos hacer multitarea mientras estamos en una reunión, nos saltan notificaciones por todas partes, sentimos mucha prisa por responder cuanto antes cualquier mensaje de Slack/Teams/etc, y miramos el correo...]]></description>
+	<itunes:subtitle><![CDATA[Ahora que muchos trabajamos en remoto la mayoría del tiempo, estamos trasladando los clásicos hábitos improductivos de las oficinas a casa. Incluso estamos adquiriendo peores hábitos. Intentamos hacer multitarea mientras estamos en una reunión, nos salta]]></itunes:subtitle>
+								<content:encoded><![CDATA[Ahora que muchos trabajamos en remoto la mayoría del tiempo, estamos trasladando los clásicos hábitos improductivos de las oficinas a casa. Incluso estamos adquiriendo peores hábitos. Intentamos hacer multitarea mientras estamos en una reunión, nos saltan notificaciones por todas partes, sentimos mucha prisa por responder cuanto antes cualquier mensaje de Slack/Teams/etc, y miramos el correo...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1202/e27-trabajo-en-remoto-y-productividad.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Ahora que muchos trabajamos en remoto la mayoría del tiempo, estamos trasladando los clásicos hábitos improductivos de las oficinas a casa. Incluso estamos adquiriendo peores hábitos. Intentamos hacer multitarea mientras estamos en una reunión, nos saltan notificaciones por todas partes, sentimos mucha prisa por responder cuanto antes cualquier mensaje de Slack/Teams/etc, y miramos el correo...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Ahora que muchos trabajamos en remoto la mayoría del tiempo, estamos trasladando los clásicos hábitos improductivos de las oficinas a casa. Incluso estamos adquiriendo peores hábitos. Intentamos hacer multitarea mientras estamos en una reunión, nos saltan notificaciones por todas partes, sentimos mucha prisa por responder cuanto antes cualquier mensaje de Slack/Teams/etc, y miramos el correo...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E26: Cómo mejorar tu inglés</title>
+	<link>https://podcast.carlosble.com/podcast/e26-como-mejorar-tu-ingles/</link>
+	<pubDate>Thu, 28 Oct 2021 22:39:37 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1199</guid>
+	<description><![CDATA[Desmitificamos el aprendizaje del inglés. En este episodio te contamos experiencias reales del aprendizaje de los idiomas, sobre todo del inglés, el rey en el mundo de la tecnología. Además hay consejos varios que te serán muy útiles. Las colaboraciones del episodio han sido de: Manuel Moranchel (02:43) Milán Matic (03:48) Isaura Fontcuberta (12:06) The...]]></description>
+	<itunes:subtitle><![CDATA[Desmitificamos el aprendizaje del inglés. En este episodio te contamos experiencias reales del aprendizaje de los idiomas, sobre todo del inglés, el rey en el mundo de la tecnología. Además hay consejos varios que te serán muy útiles. Las colaboraciones ]]></itunes:subtitle>
+								<content:encoded><![CDATA[Desmitificamos el aprendizaje del inglés. En este episodio te contamos experiencias reales del aprendizaje de los idiomas, sobre todo del inglés, el rey en el mundo de la tecnología. Además hay consejos varios que te serán muy útiles. Las colaboraciones del episodio han sido de: Manuel Moranchel (02:43) Milán Matic (03:48) Isaura Fontcuberta (12:06) The...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1199/e26-como-mejorar-tu-ingles.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Desmitificamos el aprendizaje del inglés. En este episodio te contamos experiencias reales del aprendizaje de los idiomas, sobre todo del inglés, el rey en el mundo de la tecnología. Además hay consejos varios que te serán muy útiles. Las colaboraciones del episodio han sido de: Manuel Moranchel (02:43) Milán Matic (03:48) Isaura Fontcuberta (12:06) The...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Desmitificamos el aprendizaje del inglés. En este episodio te contamos experiencias reales del aprendizaje de los idiomas, sobre todo del inglés, el rey en el mundo de la tecnología. Además hay consejos varios que te serán muy útiles. Las colaboraciones del episodio han sido de: Manuel Moranchel (02:43) Milán Matic (03:48) Isaura Fontcuberta (12:06) The...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E25: Salarios abiertos</title>
+	<link>https://podcast.carlosble.com/podcast/e25-salarios-abiertos/</link>
+	<pubDate>Wed, 15 Sep 2021 14:57:13 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1192</guid>
+	<description><![CDATA[Por fin llega el episodio sobre los salarios abiertos, tratamos de responder a las siguientes preguntas: ¿debería todo el mundo, en una empresa, conocer el sueldo de los demás?, ¿cuáles son los beneficios?, ¿y los inconvenientes? Contamos con la inestimable participación de: Carlos Iglesias, CEO y co-fundador de Runroom (03:57) Frank Torres, software developer (10:05)...]]></description>
+	<itunes:subtitle><![CDATA[Por fin llega el episodio sobre los salarios abiertos, tratamos de responder a las siguientes preguntas: ¿debería todo el mundo, en una empresa, conocer el sueldo de los demás?, ¿cuáles son los beneficios?, ¿y los inconvenientes? Contamos con la inestima]]></itunes:subtitle>
+								<content:encoded><![CDATA[Por fin llega el episodio sobre los salarios abiertos, tratamos de responder a las siguientes preguntas: ¿debería todo el mundo, en una empresa, conocer el sueldo de los demás?, ¿cuáles son los beneficios?, ¿y los inconvenientes? Contamos con la inestimable participación de: Carlos Iglesias, CEO y co-fundador de Runroom (03:57) Frank Torres, software developer (10:05)...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1192/e25-salarios-abiertos.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Por fin llega el episodio sobre los salarios abiertos, tratamos de responder a las siguientes preguntas: ¿debería todo el mundo, en una empresa, conocer el sueldo de los demás?, ¿cuáles son los beneficios?, ¿y los inconvenientes? Contamos con la inestimable participación de: Carlos Iglesias, CEO y co-fundador de Runroom (03:57) Frank Torres, software developer (10:05)...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Por fin llega el episodio sobre los salarios abiertos, tratamos de responder a las siguientes preguntas: ¿debería todo el mundo, en una empresa, conocer el sueldo de los demás?, ¿cuáles son los beneficios?, ¿y los inconvenientes? Contamos con la inestimable participación de: Carlos Iglesias, CEO y co-fundador de Runroom (03:57) Frank Torres, software developer (10:05)...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E24: La motivación</title>
+	<link>https://podcast.carlosble.com/podcast/e24-la-motivacion/</link>
+	<pubDate>Sun, 25 Jul 2021 22:49:05 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1189</guid>
+	<description><![CDATA[Este es un episodio especial, grabado en 2020, como keynote para Codemotion Spanish Edition. Este podcast contiene el mensaje completo de la keynote, tal cual fue emitida (versión completa). Hemos esperado a publicarlo porque hemos estado trabajando en la versión vídeo de la keynote, y estamos muy contentos en con los resultados: Primera parte &#8211;...]]></description>
+	<itunes:subtitle><![CDATA[Este es un episodio especial, grabado en 2020, como keynote para Codemotion Spanish Edition. Este podcast contiene el mensaje completo de la keynote, tal cual fue emitida (versión completa). Hemos esperado a publicarlo porque hemos estado trabajando en l]]></itunes:subtitle>
+								<content:encoded><![CDATA[Este es un episodio especial, grabado en 2020, como keynote para Codemotion Spanish Edition. Este podcast contiene el mensaje completo de la keynote, tal cual fue emitida (versión completa). Hemos esperado a publicarlo porque hemos estado trabajando en la versión vídeo de la keynote, y estamos muy contentos en con los resultados: Primera parte &#8211;...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1189/e24-la-motivacion.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Este es un episodio especial, grabado en 2020, como keynote para Codemotion Spanish Edition. Este podcast contiene el mensaje completo de la keynote, tal cual fue emitida (versión completa). Hemos esperado a publicarlo porque hemos estado trabajando en la versión vídeo de la keynote, y estamos muy contentos en con los resultados: Primera parte &#8211;...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Este es un episodio especial, grabado en 2020, como keynote para Codemotion Spanish Edition. Este podcast contiene el mensaje completo de la keynote, tal cual fue emitida (versión completa). Hemos esperado a publicarlo porque hemos estado trabajando en la versión vídeo de la keynote, y estamos muy contentos en con los resultados: Primera parte &#8211;...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E23: Hablemos de salarios</title>
+	<link>https://podcast.carlosble.com/podcast/e23-hablemos-de-salarios/</link>
+	<pubDate>Wed, 16 Jun 2021 08:43:31 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1184</guid>
+	<description><![CDATA[¿Cómo negociar el salario?, ¿cómo negociar una subida?, ¿cómo calibramos en  Lean Mind lo que podemos ofrecer? Este episodio es un buen complemento al episodio número 4. Te hablo de valor, coste y escasez, así como de fiscalidad. Recursos citados o relacionados con el episodio: Effective Altruism Newsletters: de Carlos Blé de Lean Mind &#160;...]]></description>
+	<itunes:subtitle><![CDATA[¿Cómo negociar el salario?, ¿cómo negociar una subida?, ¿cómo calibramos en  Lean Mind lo que podemos ofrecer? Este episodio es un buen complemento al episodio número 4. Te hablo de valor, coste y escasez, así como de fiscalidad. Recursos citados o relac]]></itunes:subtitle>
+								<content:encoded><![CDATA[¿Cómo negociar el salario?, ¿cómo negociar una subida?, ¿cómo calibramos en  Lean Mind lo que podemos ofrecer? Este episodio es un buen complemento al episodio número 4. Te hablo de valor, coste y escasez, así como de fiscalidad. Recursos citados o relacionados con el episodio: Effective Altruism Newsletters: de Carlos Blé de Lean Mind &#160;...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1184/e23-hablemos-de-salarios.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[¿Cómo negociar el salario?, ¿cómo negociar una subida?, ¿cómo calibramos en  Lean Mind lo que podemos ofrecer? Este episodio es un buen complemento al episodio número 4. Te hablo de valor, coste y escasez, así como de fiscalidad. Recursos citados o relacionados con el episodio: Effective Altruism Newsletters: de Carlos Blé de Lean Mind &#160;...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[¿Cómo negociar el salario?, ¿cómo negociar una subida?, ¿cómo calibramos en  Lean Mind lo que podemos ofrecer? Este episodio es un buen complemento al episodio número 4. Te hablo de valor, coste y escasez, así como de fiscalidad. Recursos citados o relacionados con el episodio: Effective Altruism Newsletters: de Carlos Blé de Lean Mind &#160;...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E22: La entrevista de trabajo</title>
+	<link>https://podcast.carlosble.com/podcast/e22-la-entrevista-de-trabajo/</link>
+	<pubDate>Mon, 24 May 2021 22:05:47 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1181</guid>
+	<description><![CDATA[La entrevista es una ocasión para que quien se presenta al puesto evalúe si le parece suficientemente atractiva la empresa y viceversa. Es un punto de encuentro para conocer los valores e intereses de cada una de las partes y estudiar si será productiva la colaboración. En este episodio te cuento cómo he vivido las...]]></description>
+	<itunes:subtitle><![CDATA[La entrevista es una ocasión para que quien se presenta al puesto evalúe si le parece suficientemente atractiva la empresa y viceversa. Es un punto de encuentro para conocer los valores e intereses de cada una de las partes y estudiar si será productiva ]]></itunes:subtitle>
+								<content:encoded><![CDATA[La entrevista es una ocasión para que quien se presenta al puesto evalúe si le parece suficientemente atractiva la empresa y viceversa. Es un punto de encuentro para conocer los valores e intereses de cada una de las partes y estudiar si será productiva la colaboración. En este episodio te cuento cómo he vivido las...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1181/e22-la-entrevista-de-trabajo.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[La entrevista es una ocasión para que quien se presenta al puesto evalúe si le parece suficientemente atractiva la empresa y viceversa. Es un punto de encuentro para conocer los valores e intereses de cada una de las partes y estudiar si será productiva la colaboración. En este episodio te cuento cómo he vivido las...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[La entrevista es una ocasión para que quien se presenta al puesto evalúe si le parece suficientemente atractiva la empresa y viceversa. Es un punto de encuentro para conocer los valores e intereses de cada una de las partes y estudiar si será productiva la colaboración. En este episodio te cuento cómo he vivido las...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E21: Beneficios de escribir un blog</title>
+	<link>https://podcast.carlosble.com/podcast/e21-beneficios-de-escribir-un-blog/</link>
+	<pubDate>Thu, 15 Apr 2021 09:24:46 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1177</guid>
+	<description><![CDATA[¿Cuáles son los beneficios de escribir en un blog o en un diario? A lo mejor escribir un blog no es lo que piensas. Este episodio puede aclararte algunas dudas y animarte a escribir. Contamos con unas contribuciones de auténtico lujo, desde aquí quero dar las gracias a todas las personas que se han tomado...]]></description>
+	<itunes:subtitle><![CDATA[¿Cuáles son los beneficios de escribir en un blog o en un diario? A lo mejor escribir un blog no es lo que piensas. Este episodio puede aclararte algunas dudas y animarte a escribir. Contamos con unas contribuciones de auténtico lujo, desde aquí quero da]]></itunes:subtitle>
+								<content:encoded><![CDATA[¿Cuáles son los beneficios de escribir en un blog o en un diario? A lo mejor escribir un blog no es lo que piensas. Este episodio puede aclararte algunas dudas y animarte a escribir. Contamos con unas contribuciones de auténtico lujo, desde aquí quero dar las gracias a todas las personas que se han tomado...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1177/e21-beneficios-de-escribir-un-blog.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[¿Cuáles son los beneficios de escribir en un blog o en un diario? A lo mejor escribir un blog no es lo que piensas. Este episodio puede aclararte algunas dudas y animarte a escribir. Contamos con unas contribuciones de auténtico lujo, desde aquí quero dar las gracias a todas las personas que se han tomado...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[¿Cuáles son los beneficios de escribir en un blog o en un diario? A lo mejor escribir un blog no es lo que piensas. Este episodio puede aclararte algunas dudas y animarte a escribir. Contamos con unas contribuciones de auténtico lujo, desde aquí quero dar las gracias a todas las personas que se han tomado...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E20: Curriculum y carta de presentación</title>
+	<link>https://podcast.carlosble.com/podcast/e20-curriculum-y-carta-de-presentacion/</link>
+	<pubDate>Wed, 17 Mar 2021 22:36:53 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1172</guid>
+	<description><![CDATA[Episodio pensado para las personas que están buscando trabajo, ya sea su primer empleo o un cambio de empresa. Pistas sobre lo que algunas empresas de tecnología valoramos de las candidaturas. Te contamos cómo puedes preparar tu curriculum y tu email o tu carta de presentación. Escucharás que hay puntos de vista diferentes, incluso algunos...]]></description>
+	<itunes:subtitle><![CDATA[Episodio pensado para las personas que están buscando trabajo, ya sea su primer empleo o un cambio de empresa. Pistas sobre lo que algunas empresas de tecnología valoramos de las candidaturas. Te contamos cómo puedes preparar tu curriculum y tu email o t]]></itunes:subtitle>
+								<content:encoded><![CDATA[Episodio pensado para las personas que están buscando trabajo, ya sea su primer empleo o un cambio de empresa. Pistas sobre lo que algunas empresas de tecnología valoramos de las candidaturas. Te contamos cómo puedes preparar tu curriculum y tu email o tu carta de presentación. Escucharás que hay puntos de vista diferentes, incluso algunos...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1172/e20-curriculum-y-carta-de-presentacion.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Episodio pensado para las personas que están buscando trabajo, ya sea su primer empleo o un cambio de empresa. Pistas sobre lo que algunas empresas de tecnología valoramos de las candidaturas. Te contamos cómo puedes preparar tu curriculum y tu email o tu carta de presentación. Escucharás que hay puntos de vista diferentes, incluso algunos...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Episodio pensado para las personas que están buscando trabajo, ya sea su primer empleo o un cambio de empresa. Pistas sobre lo que algunas empresas de tecnología valoramos de las candidaturas. Te contamos cómo puedes preparar tu curriculum y tu email o tu carta de presentación. Escucharás que hay puntos de vista diferentes, incluso algunos...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E19: CRUD y ORM</title>
+	<link>https://podcast.carlosble.com/podcast/e19-crud-y-orm/</link>
+	<pubDate>Thu, 11 Feb 2021 15:23:04 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1167</guid>
+	<description><![CDATA[Pros y contras del enfoque CRUD  y de los ORM (Object Relational Mapper), contado con historietas de la vida real. Esta es la continuación del episodio 18 así que te recomiendo que primero escuches ese. Recursos citados o relacionados con el episodio: Effective Altruism Blog de Oren Eini (Ayende) Miguel de Icaza Marc-André Cournoyer Newsletters:...]]></description>
+	<itunes:subtitle><![CDATA[Pros y contras del enfoque CRUD  y de los ORM (Object Relational Mapper), contado con historietas de la vida real. Esta es la continuación del episodio 18 así que te recomiendo que primero escuches ese. Recursos citados o relacionados con el episodio: Ef]]></itunes:subtitle>
+								<content:encoded><![CDATA[Pros y contras del enfoque CRUD  y de los ORM (Object Relational Mapper), contado con historietas de la vida real. Esta es la continuación del episodio 18 así que te recomiendo que primero escuches ese. Recursos citados o relacionados con el episodio: Effective Altruism Blog de Oren Eini (Ayende) Miguel de Icaza Marc-André Cournoyer Newsletters:...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1167/e19-crud-y-orm.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Pros y contras del enfoque CRUD  y de los ORM (Object Relational Mapper), contado con historietas de la vida real. Esta es la continuación del episodio 18 así que te recomiendo que primero escuches ese. Recursos citados o relacionados con el episodio: Effective Altruism Blog de Oren Eini (Ayende) Miguel de Icaza Marc-André Cournoyer Newsletters:...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Pros y contras del enfoque CRUD  y de los ORM (Object Relational Mapper), contado con historietas de la vida real. Esta es la continuación del episodio 18 así que te recomiendo que primero escuches ese. Recursos citados o relacionados con el episodio: Effective Altruism Blog de Oren Eini (Ayende) Miguel de Icaza Marc-André Cournoyer Newsletters:...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E18: Las apps del futuro</title>
+	<link>https://podcast.carlosble.com/podcast/e18-las-apps-del-futuro/</link>
+	<pubDate>Sun, 24 Jan 2021 00:41:33 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1163</guid>
+	<description><![CDATA[&#160; ¿Qué características del software que utilizas, te aportan valor?, ¿cuáles son tus apps favoritas?, ¿por qué?, ¿cómo podemos construir software que aporta más valor a los usuarios? En este episodio te doy algunas pistas sobre cómo pensar y diseñar software con impacto. Te hablo de técnicas de análisis, arquitectura de software, empatía cognitiva y...]]></description>
+	<itunes:subtitle><![CDATA[&#160; ¿Qué características del software que utilizas, te aportan valor?, ¿cuáles son tus apps favoritas?, ¿por qué?, ¿cómo podemos construir software que aporta más valor a los usuarios? En este episodio te doy algunas pistas sobre cómo pensar y diseñar]]></itunes:subtitle>
+								<content:encoded><![CDATA[&#160; ¿Qué características del software que utilizas, te aportan valor?, ¿cuáles son tus apps favoritas?, ¿por qué?, ¿cómo podemos construir software que aporta más valor a los usuarios? En este episodio te doy algunas pistas sobre cómo pensar y diseñar software con impacto. Te hablo de técnicas de análisis, arquitectura de software, empatía cognitiva y...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1163/e18-las-apps-del-futuro.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[&#160; ¿Qué características del software que utilizas, te aportan valor?, ¿cuáles son tus apps favoritas?, ¿por qué?, ¿cómo podemos construir software que aporta más valor a los usuarios? En este episodio te doy algunas pistas sobre cómo pensar y diseñar software con impacto. Te hablo de técnicas de análisis, arquitectura de software, empatía cognitiva y...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[&#160; ¿Qué características del software que utilizas, te aportan valor?, ¿cuáles son tus apps favoritas?, ¿por qué?, ¿cómo podemos construir software que aporta más valor a los usuarios? En este episodio te doy algunas pistas sobre cómo pensar y diseñar software con impacto. Te hablo de técnicas de análisis, arquitectura de software, empatía cognitiva y...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E17: Ergonomía y hábitos saludables</title>
+	<link>https://podcast.carlosble.com/podcast/e17-ergonomia-y-habitos-saludables/</link>
+	<pubDate>Wed, 13 Jan 2021 11:10:17 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1158</guid>
+	<description><![CDATA[&#160;   Luis Rodriguez me invitó a hablar sobre ergonomía y salud, aspectos muy importantes en cualquier profesión. Pasar tantas horas sentados delante de la pantalla, tiene consecuencias para la salud. Los dolores de espalda son un clásico y antes o después nos acaban afectando a todos. ¿Cómo podemos cuidar nuestra salud? En este podcast...]]></description>
+	<itunes:subtitle><![CDATA[&#160;   Luis Rodriguez me invitó a hablar sobre ergonomía y salud, aspectos muy importantes en cualquier profesión. Pasar tantas horas sentados delante de la pantalla, tiene consecuencias para la salud. Los dolores de espalda son un clásico y antes o de]]></itunes:subtitle>
+								<content:encoded><![CDATA[&#160;   Luis Rodriguez me invitó a hablar sobre ergonomía y salud, aspectos muy importantes en cualquier profesión. Pasar tantas horas sentados delante de la pantalla, tiene consecuencias para la salud. Los dolores de espalda son un clásico y antes o después nos acaban afectando a todos. ¿Cómo podemos cuidar nuestra salud? En este podcast...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1158/e17-ergonomia-y-habitos-saludables.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[&#160;   Luis Rodriguez me invitó a hablar sobre ergonomía y salud, aspectos muy importantes en cualquier profesión. Pasar tantas horas sentados delante de la pantalla, tiene consecuencias para la salud. Los dolores de espalda son un clásico y antes o después nos acaban afectando a todos. ¿Cómo podemos cuidar nuestra salud? En este podcast...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[&#160;   Luis Rodriguez me invitó a hablar sobre ergonomía y salud, aspectos muy importantes en cualquier profesión. Pasar tantas horas sentados delante de la pantalla, tiene consecuencias para la salud. Los dolores de espalda son un clásico y antes o después nos acaban afectando a todos. ¿Cómo podemos cuidar nuestra salud? En este podcast...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E16: Una década de TDD</title>
+	<link>https://podcast.carlosble.com/podcast/e16-una-decada-de-tdd/</link>
+	<pubDate>Mon, 21 Dec 2020 16:43:49 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1149</guid>
+	<description><![CDATA[&#160; &#160; Último episodio de 2020, un especial sobre esta década de divulgación de TDD (Test-driven development) con un toque navideño. Hace 10 años publiqué mi primer libro y hace un año el segundo. Desde 2009 he estado divulgando TDD y otras prácticas de eXtreme Programming. Algunas de las muchas personas que he tenido la...]]></description>
+	<itunes:subtitle><![CDATA[&#160; &#160; Último episodio de 2020, un especial sobre esta década de divulgación de TDD (Test-driven development) con un toque navideño. Hace 10 años publiqué mi primer libro y hace un año el segundo. Desde 2009 he estado divulgando TDD y otras prácti]]></itunes:subtitle>
+								<content:encoded><![CDATA[&#160; &#160; Último episodio de 2020, un especial sobre esta década de divulgación de TDD (Test-driven development) con un toque navideño. Hace 10 años publiqué mi primer libro y hace un año el segundo. Desde 2009 he estado divulgando TDD y otras prácticas de eXtreme Programming. Algunas de las muchas personas que he tenido la...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1149/e16-una-decada-de-tdd.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[&#160; &#160; Último episodio de 2020, un especial sobre esta década de divulgación de TDD (Test-driven development) con un toque navideño. Hace 10 años publiqué mi primer libro y hace un año el segundo. Desde 2009 he estado divulgando TDD y otras prácticas de eXtreme Programming. Algunas de las muchas personas que he tenido la...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[&#160; &#160; Último episodio de 2020, un especial sobre esta década de divulgación de TDD (Test-driven development) con un toque navideño. Hace 10 años publiqué mi primer libro y hace un año el segundo. Desde 2009 he estado divulgando TDD y otras prácticas de eXtreme Programming. Algunas de las muchas personas que he tenido la...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E15: Ética profesional</title>
+	<link>https://podcast.carlosble.com/podcast/e15-etica-profesional/</link>
+	<pubDate>Fri, 11 Dec 2020 20:51:52 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1145</guid>
+	<description><![CDATA[&#160; &#160; Hablamos de ética profesional en el sector TIC y especialmente en el desarrollo de software. Esta vez el episodio viene motivado por una pregunta que hizo llegar José Ibañez y que encontrarás al comienzo del mismo. Este episodio contiene valiosas contribuciones de profesionales con mucha experiencia en diferentes sectores. Por orden de aparición:...]]></description>
+	<itunes:subtitle><![CDATA[&#160; &#160; Hablamos de ética profesional en el sector TIC y especialmente en el desarrollo de software. Esta vez el episodio viene motivado por una pregunta que hizo llegar José Ibañez y que encontrarás al comienzo del mismo. Este episodio contiene va]]></itunes:subtitle>
+								<content:encoded><![CDATA[&#160; &#160; Hablamos de ética profesional en el sector TIC y especialmente en el desarrollo de software. Esta vez el episodio viene motivado por una pregunta que hizo llegar José Ibañez y que encontrarás al comienzo del mismo. Este episodio contiene valiosas contribuciones de profesionales con mucha experiencia en diferentes sectores. Por orden de aparición:...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1145/e15-etica-profesional.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[&#160; &#160; Hablamos de ética profesional en el sector TIC y especialmente en el desarrollo de software. Esta vez el episodio viene motivado por una pregunta que hizo llegar José Ibañez y que encontrarás al comienzo del mismo. Este episodio contiene valiosas contribuciones de profesionales con mucha experiencia en diferentes sectores. Por orden de aparición:...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[&#160; &#160; Hablamos de ética profesional en el sector TIC y especialmente en el desarrollo de software. Esta vez el episodio viene motivado por una pregunta que hizo llegar José Ibañez y que encontrarás al comienzo del mismo. Este episodio contiene valiosas contribuciones de profesionales con mucha experiencia en diferentes sectores. Por orden de aparición:...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E14: Refactoring</title>
+	<link>https://podcast.carlosble.com/podcast/e14-refactoring/</link>
+	<pubDate>Thu, 26 Nov 2020 19:43:39 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1142</guid>
+	<description><![CDATA[&#160; &#160; ¿Qué entendemos por Refactoring? No todo el mundo entiende lo mismo, pese a que Martin Fowler lo dejó bien clarito. ¿Cuándo hacer refactoring?¿cómo hacerlo?¿qué implicaciones tiene? En este episodio te lo contamos todo, para técnicos y no técnicos. La práctica que no puede faltar en los equipos de desarrollo. Este episodio contiene valiosas...]]></description>
+	<itunes:subtitle><![CDATA[&#160; &#160; ¿Qué entendemos por Refactoring? No todo el mundo entiende lo mismo, pese a que Martin Fowler lo dejó bien clarito. ¿Cuándo hacer refactoring?¿cómo hacerlo?¿qué implicaciones tiene? En este episodio te lo contamos todo, para técnicos y no t]]></itunes:subtitle>
+								<content:encoded><![CDATA[&#160; &#160; ¿Qué entendemos por Refactoring? No todo el mundo entiende lo mismo, pese a que Martin Fowler lo dejó bien clarito. ¿Cuándo hacer refactoring?¿cómo hacerlo?¿qué implicaciones tiene? En este episodio te lo contamos todo, para técnicos y no técnicos. La práctica que no puede faltar en los equipos de desarrollo. Este episodio contiene valiosas...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1142/e14-refactoring.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[&#160; &#160; ¿Qué entendemos por Refactoring? No todo el mundo entiende lo mismo, pese a que Martin Fowler lo dejó bien clarito. ¿Cuándo hacer refactoring?¿cómo hacerlo?¿qué implicaciones tiene? En este episodio te lo contamos todo, para técnicos y no técnicos. La práctica que no puede faltar en los equipos de desarrollo. Este episodio contiene valiosas...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[&#160; &#160; ¿Qué entendemos por Refactoring? No todo el mundo entiende lo mismo, pese a que Martin Fowler lo dejó bien clarito. ¿Cuándo hacer refactoring?¿cómo hacerlo?¿qué implicaciones tiene? En este episodio te lo contamos todo, para técnicos y no técnicos. La práctica que no puede faltar en los equipos de desarrollo. Este episodio contiene valiosas...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E13: Developer se convierte en manager</title>
+	<link>https://podcast.carlosble.com/podcast/e13-developer-se-convierte-en-manager/</link>
+	<pubDate>Thu, 29 Oct 2020 10:07:52 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1132</guid>
+	<description><![CDATA[&#160; &#160; Llega ese día en que alguien que se dedicaba a programar, pasa a encargarse de que los proyectos salgan bien y los equipos funcionen. En este podcast te damos pistas sobre lo que implica pasar a ser manager y algunos consejos que pueden ayudarte a desempeñar esta labor. Este episodio contiene valiosas perlas...]]></description>
+	<itunes:subtitle><![CDATA[&#160; &#160; Llega ese día en que alguien que se dedicaba a programar, pasa a encargarse de que los proyectos salgan bien y los equipos funcionen. En este podcast te damos pistas sobre lo que implica pasar a ser manager y algunos consejos que pueden ayu]]></itunes:subtitle>
+								<content:encoded><![CDATA[&#160; &#160; Llega ese día en que alguien que se dedicaba a programar, pasa a encargarse de que los proyectos salgan bien y los equipos funcionen. En este podcast te damos pistas sobre lo que implica pasar a ser manager y algunos consejos que pueden ayudarte a desempeñar esta labor. Este episodio contiene valiosas perlas...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1132/e13-developer-se-convierte-en-manager.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[&#160; &#160; Llega ese día en que alguien que se dedicaba a programar, pasa a encargarse de que los proyectos salgan bien y los equipos funcionen. En este podcast te damos pistas sobre lo que implica pasar a ser manager y algunos consejos que pueden ayudarte a desempeñar esta labor. Este episodio contiene valiosas perlas...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[&#160; &#160; Llega ese día en que alguien que se dedicaba a programar, pasa a encargarse de que los proyectos salgan bien y los equipos funcionen. En este podcast te damos pistas sobre lo que implica pasar a ser manager y algunos consejos que pueden ayudarte a desempeñar esta labor. Este episodio contiene valiosas perlas...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E12: Comentarios en el código y documentación</title>
+	<link>https://podcast.carlosble.com/podcast/e12-comentarios-en-el-codigo-y-documentacion/</link>
+	<pubDate>Sun, 20 Sep 2020 22:04:24 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1128</guid>
+	<description><![CDATA[Retomamos uno de los asuntos mencionados en el episodio 10, los comentarios en el código y de paso hablamos de otros tipos de documentación. Entre el extremo de escribir comentarios para absolutamente todo y el de escribir cero comentarios, está el punto en el que ponemos foco en el episodio. Ejemplos de comentarios útiles: Explicar...]]></description>
+	<itunes:subtitle><![CDATA[Retomamos uno de los asuntos mencionados en el episodio 10, los comentarios en el código y de paso hablamos de otros tipos de documentación. Entre el extremo de escribir comentarios para absolutamente todo y el de escribir cero comentarios, está el punto]]></itunes:subtitle>
+								<content:encoded><![CDATA[Retomamos uno de los asuntos mencionados en el episodio 10, los comentarios en el código y de paso hablamos de otros tipos de documentación. Entre el extremo de escribir comentarios para absolutamente todo y el de escribir cero comentarios, está el punto en el que ponemos foco en el episodio. Ejemplos de comentarios útiles: Explicar...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1128/e12-comentarios-en-el-codigo-y-documentacion.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Retomamos uno de los asuntos mencionados en el episodio 10, los comentarios en el código y de paso hablamos de otros tipos de documentación. Entre el extremo de escribir comentarios para absolutamente todo y el de escribir cero comentarios, está el punto en el que ponemos foco en el episodio. Ejemplos de comentarios útiles: Explicar...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Retomamos uno de los asuntos mencionados en el episodio 10, los comentarios en el código y de paso hablamos de otros tipos de documentación. Entre el extremo de escribir comentarios para absolutamente todo y el de escribir cero comentarios, está el punto en el que ponemos foco en el episodio. Ejemplos de comentarios útiles: Explicar...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E11: Las personas primero</title>
+	<link>https://podcast.carlosble.com/podcast/e11-las-personas-primero/</link>
+	<pubDate>Fri, 07 Aug 2020 13:31:58 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1119</guid>
+	<description><![CDATA[Hacemos un inciso en la temática técnica para hablar de «soft skills», de esas habilidades que cuesta tanto cultivar. Este podcast es un regalo para mí yo del pasado y un recordatorio para mi yo del futuro. De cómo puede ser, que por quererlo hacer muy bien, uno pueda estropear las relaciones y los equipos....]]></description>
+	<itunes:subtitle><![CDATA[Hacemos un inciso en la temática técnica para hablar de «soft skills», de esas habilidades que cuesta tanto cultivar. Este podcast es un regalo para mí yo del pasado y un recordatorio para mi yo del futuro. De cómo puede ser, que por quererlo hacer muy b]]></itunes:subtitle>
+								<content:encoded><![CDATA[Hacemos un inciso en la temática técnica para hablar de «soft skills», de esas habilidades que cuesta tanto cultivar. Este podcast es un regalo para mí yo del pasado y un recordatorio para mi yo del futuro. De cómo puede ser, que por quererlo hacer muy bien, uno pueda estropear las relaciones y los equipos....]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/1119/e11-las-personas-primero.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Hacemos un inciso en la temática técnica para hablar de «soft skills», de esas habilidades que cuesta tanto cultivar. Este podcast es un regalo para mí yo del pasado y un recordatorio para mi yo del futuro. De cómo puede ser, que por quererlo hacer muy bien, uno pueda estropear las relaciones y los equipos....]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Hacemos un inciso en la temática técnica para hablar de «soft skills», de esas habilidades que cuesta tanto cultivar. Este podcast es un regalo para mí yo del pasado y un recordatorio para mi yo del futuro. De cómo puede ser, que por quererlo hacer muy bien, uno pueda estropear las relaciones y los equipos....]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E10: Principios sacados de contexto</title>
+	<link>https://podcast.carlosble.com/podcast/principios-sacados-de-contexto/</link>
+	<pubDate>Tue, 14 Jul 2020 19:58:14 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=176</guid>
+	<description><![CDATA[¿Todavía piensas que una función debe tener un único «return»? ¿que no debes «escribir» en un parámetro de la función? ¿que las constantes deben colocarse arriba del todo? ¿que la eficiencia del código es lo más importante? Aquí te cuento por qué algunos viejos principios/consejos se han quedado obsoletos, fuera de contexto y como a...]]></description>
+	<itunes:subtitle><![CDATA[¿Todavía piensas que una función debe tener un único «return»? ¿que no debes «escribir» en un parámetro de la función? ¿que las constantes deben colocarse arriba del todo? ¿que la eficiencia del código es lo más importante? Aquí te cuento por qué algunos]]></itunes:subtitle>
+								<content:encoded><![CDATA[¿Todavía piensas que una función debe tener un único «return»? ¿que no debes «escribir» en un parámetro de la función? ¿que las constantes deben colocarse arriba del todo? ¿que la eficiencia del código es lo más importante? Aquí te cuento por qué algunos viejos principios/consejos se han quedado obsoletos, fuera de contexto y como a...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/176/principios-sacados-de-contexto.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[¿Todavía piensas que una función debe tener un único «return»? ¿que no debes «escribir» en un parámetro de la función? ¿que las constantes deben colocarse arriba del todo? ¿que la eficiencia del código es lo más importante? Aquí te cuento por qué algunos viejos principios/consejos se han quedado obsoletos, fuera de contexto y como a...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[¿Todavía piensas que una función debe tener un único «return»? ¿que no debes «escribir» en un parámetro de la función? ¿que las constantes deben colocarse arriba del todo? ¿que la eficiencia del código es lo más importante? Aquí te cuento por qué algunos viejos principios/consejos se han quedado obsoletos, fuera de contexto y como a...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E9: Mob programming</title>
+	<link>https://podcast.carlosble.com/podcast/e9-mob-programming/</link>
+	<pubDate>Sun, 14 Jun 2020 20:19:41 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=161</guid>
+	<description><![CDATA[Mob programming es una actividad que consiste en programar en grupo: más de dos personas en el mismo lugar, con la misma tarea, con la misma máquina. Una práctica ideal para construir equipo y elevar la calidad del código. Agradecimientos a las personas que contribuyen con este episodio: Miguel A. Viera Nazaret Miranda Helder de...]]></description>
+	<itunes:subtitle><![CDATA[Mob programming es una actividad que consiste en programar en grupo: más de dos personas en el mismo lugar, con la misma tarea, con la misma máquina. Una práctica ideal para construir equipo y elevar la calidad del código. Agradecimientos a las personas ]]></itunes:subtitle>
+								<content:encoded><![CDATA[Mob programming es una actividad que consiste en programar en grupo: más de dos personas en el mismo lugar, con la misma tarea, con la misma máquina. Una práctica ideal para construir equipo y elevar la calidad del código. Agradecimientos a las personas que contribuyen con este episodio: Miguel A. Viera Nazaret Miranda Helder de...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/161/e9-mob-programming.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Mob programming es una actividad que consiste en programar en grupo: más de dos personas en el mismo lugar, con la misma tarea, con la misma máquina. Una práctica ideal para construir equipo y elevar la calidad del código. Agradecimientos a las personas que contribuyen con este episodio: Miguel A. Viera Nazaret Miranda Helder de...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Mob programming es una actividad que consiste en programar en grupo: más de dos personas en el mismo lugar, con la misma tarea, con la misma máquina. Una práctica ideal para construir equipo y elevar la calidad del código. Agradecimientos a las personas que contribuyen con este episodio: Miguel A. Viera Nazaret Miranda Helder de...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E8: Pair programming</title>
+	<link>https://podcast.carlosble.com/podcast/pair-programming/</link>
+	<pubDate>Sun, 10 May 2020 15:00:19 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=149</guid>
+	<description><![CDATA[Programación en pares o pair programming, una de las prácticas core de eXtreme Programming. Parece simple, dos personas trabajando juntas en una máquina, pero no es tan sencillo. Requiere disciplina, formación y hacer retrospectivas contínuas. Aquí te cuento mi experiencia y también tenemos la suerte de contar con opiniones y consejos de: Oscar Moreno Ulises...]]></description>
+	<itunes:subtitle><![CDATA[Programación en pares o pair programming, una de las prácticas core de eXtreme Programming. Parece simple, dos personas trabajando juntas en una máquina, pero no es tan sencillo. Requiere disciplina, formación y hacer retrospectivas contínuas. Aquí te cu]]></itunes:subtitle>
+								<content:encoded><![CDATA[Programación en pares o pair programming, una de las prácticas core de eXtreme Programming. Parece simple, dos personas trabajando juntas en una máquina, pero no es tan sencillo. Requiere disciplina, formación y hacer retrospectivas contínuas. Aquí te cuento mi experiencia y también tenemos la suerte de contar con opiniones y consejos de: Oscar Moreno Ulises...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/149/pair-programming.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Programación en pares o pair programming, una de las prácticas core de eXtreme Programming. Parece simple, dos personas trabajando juntas en una máquina, pero no es tan sencillo. Requiere disciplina, formación y hacer retrospectivas contínuas. Aquí te cuento mi experiencia y también tenemos la suerte de contar con opiniones y consejos de: Oscar Moreno Ulises...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Programación en pares o pair programming, una de las prácticas core de eXtreme Programming. Parece simple, dos personas trabajando juntas en una máquina, pero no es tan sencillo. Requiere disciplina, formación y hacer retrospectivas contínuas. Aquí te cuento mi experiencia y también tenemos la suerte de contar con opiniones y consejos de: Oscar Moreno Ulises...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E7:Trabajar bajo presión</title>
+	<link>https://podcast.carlosble.com/podcast/e7trabajar-bajo-presion/</link>
+	<pubDate>Tue, 21 Apr 2020 13:08:21 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=146</guid>
+	<description><![CDATA[Un poco de presión es necesaria pero el exceso de presión es contraproducente. ¿Cuáles son las causas que nos llevan a trabajar bajo excesiva presión? ¿por qué llegamos a sufrir estres y ansiedad en ocasiones? En este podcast te cuento motivos y estrategias para gestionar el nivel de presión en los proyectos de desarrollo de...]]></description>
+	<itunes:subtitle><![CDATA[Un poco de presión es necesaria pero el exceso de presión es contraproducente. ¿Cuáles son las causas que nos llevan a trabajar bajo excesiva presión? ¿por qué llegamos a sufrir estres y ansiedad en ocasiones? En este podcast te cuento motivos y estrateg]]></itunes:subtitle>
+								<content:encoded><![CDATA[Un poco de presión es necesaria pero el exceso de presión es contraproducente. ¿Cuáles son las causas que nos llevan a trabajar bajo excesiva presión? ¿por qué llegamos a sufrir estres y ansiedad en ocasiones? En este podcast te cuento motivos y estrategias para gestionar el nivel de presión en los proyectos de desarrollo de...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/146/e7trabajar-bajo-presion.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Un poco de presión es necesaria pero el exceso de presión es contraproducente. ¿Cuáles son las causas que nos llevan a trabajar bajo excesiva presión? ¿por qué llegamos a sufrir estres y ansiedad en ocasiones? En este podcast te cuento motivos y estrategias para gestionar el nivel de presión en los proyectos de desarrollo de...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Un poco de presión es necesaria pero el exceso de presión es contraproducente. ¿Cuáles son las causas que nos llevan a trabajar bajo excesiva presión? ¿por qué llegamos a sufrir estres y ansiedad en ocasiones? En este podcast te cuento motivos y estrategias para gestionar el nivel de presión en los proyectos de desarrollo de...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E6: Software para la ciudadanía</title>
+	<link>https://podcast.carlosble.com/podcast/e6-software-para-la-ciudadania/</link>
+	<pubDate>Sun, 29 Mar 2020 18:55:05 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=135</guid>
+	<description><![CDATA[Segundo episodio dentro del confinamiento del COVID-19, grabado el 29 de Marzo de 2020. En este episodio explico por qué pienso que el software que se hace para los ciudadanos debe ser software libre, código abierto. También advierto de los peligros de hacer software sin consultar a los expertos en materia de asuntos sociales y...]]></description>
+	<itunes:subtitle><![CDATA[Segundo episodio dentro del confinamiento del COVID-19, grabado el 29 de Marzo de 2020. En este episodio explico por qué pienso que el software que se hace para los ciudadanos debe ser software libre, código abierto. También advierto de los peligros de h]]></itunes:subtitle>
+								<content:encoded><![CDATA[Segundo episodio dentro del confinamiento del COVID-19, grabado el 29 de Marzo de 2020. En este episodio explico por qué pienso que el software que se hace para los ciudadanos debe ser software libre, código abierto. También advierto de los peligros de hacer software sin consultar a los expertos en materia de asuntos sociales y...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/135/e6-software-para-la-ciudadania.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Segundo episodio dentro del confinamiento del COVID-19, grabado el 29 de Marzo de 2020. En este episodio explico por qué pienso que el software que se hace para los ciudadanos debe ser software libre, código abierto. También advierto de los peligros de hacer software sin consultar a los expertos en materia de asuntos sociales y...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Segundo episodio dentro del confinamiento del COVID-19, grabado el 29 de Marzo de 2020. En este episodio explico por qué pienso que el software que se hace para los ciudadanos debe ser software libre, código abierto. También advierto de los peligros de hacer software sin consultar a los expertos en materia de asuntos sociales y...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E5: Llamada a la acción</title>
+	<link>https://podcast.carlosble.com/podcast/e5-llamada-a-la-accion/</link>
+	<pubDate>Sun, 15 Mar 2020 19:10:47 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=131</guid>
+	<description><![CDATA[Este es un episodio especial realizado en tiempos de crisis, grabado el 15 de marzo de 2020, al comienzo del encierro provocado por el estado de alarma nacional a causa de COVID-19. Un episodio no previsto que te invita a reflexionar y a actuar.Aquí están los enlaces de las notas del episodio: Comunidad TIC para...]]></description>
+	<itunes:subtitle><![CDATA[Este es un episodio especial realizado en tiempos de crisis, grabado el 15 de marzo de 2020, al comienzo del encierro provocado por el estado de alarma nacional a causa de COVID-19. Un episodio no previsto que te invita a reflexionar y a actuar.Aquí está]]></itunes:subtitle>
+								<content:encoded><![CDATA[Este es un episodio especial realizado en tiempos de crisis, grabado el 15 de marzo de 2020, al comienzo del encierro provocado por el estado de alarma nacional a causa de COVID-19. Un episodio no previsto que te invita a reflexionar y a actuar.Aquí están los enlaces de las notas del episodio: Comunidad TIC para...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/131/e5-llamada-a-la-accion.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Este es un episodio especial realizado en tiempos de crisis, grabado el 15 de marzo de 2020, al comienzo del encierro provocado por el estado de alarma nacional a causa de COVID-19. Un episodio no previsto que te invita a reflexionar y a actuar.Aquí están los enlaces de las notas del episodio: Comunidad TIC para...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Este es un episodio especial realizado en tiempos de crisis, grabado el 15 de marzo de 2020, al comienzo del encierro provocado por el estado de alarma nacional a causa de COVID-19. Un episodio no previsto que te invita a reflexionar y a actuar.Aquí están los enlaces de las notas del episodio: Comunidad TIC para...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>E4: ¿Cómo genera dinero el negocio del software?</title>
+	<link>https://podcast.carlosble.com/podcast/e4-como-genera-dinero-el-negocio-del-software/</link>
+	<pubDate>Sun, 08 Mar 2020 19:32:14 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=130</guid>
+	<description><![CDATA[Vamos con otro episodio arriesgado, donde hablamos de modelos de negocio en la industriad el software, salarios, valores, riesgos, estrategias. En el podcast cito este libro: The Business Of Software de Erik Sink Relacionado con este podcast tengo este post que escribí en mi blog hace algunos meses: ¿De dónde sale el dinero para contratar...]]></description>
+	<itunes:subtitle><![CDATA[Vamos con otro episodio arriesgado, donde hablamos de modelos de negocio en la industriad el software, salarios, valores, riesgos, estrategias. En el podcast cito este libro: The Business Of Software de Erik Sink Relacionado con este podcast tengo este p]]></itunes:subtitle>
+								<content:encoded><![CDATA[Vamos con otro episodio arriesgado, donde hablamos de modelos de negocio en la industriad el software, salarios, valores, riesgos, estrategias. En el podcast cito este libro: The Business Of Software de Erik Sink Relacionado con este podcast tengo este post que escribí en mi blog hace algunos meses: ¿De dónde sale el dinero para contratar...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/130/e4-como-genera-dinero-el-negocio-del-software.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Vamos con otro episodio arriesgado, donde hablamos de modelos de negocio en la industriad el software, salarios, valores, riesgos, estrategias. En el podcast cito este libro: The Business Of Software de Erik Sink Relacionado con este podcast tengo este post que escribí en mi blog hace algunos meses: ¿De dónde sale el dinero para contratar...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Vamos con otro episodio arriesgado, donde hablamos de modelos de negocio en la industriad el software, salarios, valores, riesgos, estrategias. En el podcast cito este libro: The Business Of Software de Erik Sink Relacionado con este podcast tengo este post que escribí en mi blog hace algunos meses: ¿De dónde sale el dinero para contratar...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>Episodio 3: ¿Cómo te conviertes en developer?</title>
+	<link>https://podcast.carlosble.com/podcast/episodio-3-como-te-conviertes-en-developer/</link>
+	<pubDate>Thu, 20 Feb 2020 22:56:09 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=127</guid>
+	<description><![CDATA[En este (posiblemente polémico) episodio te cuento mi opinión sobre los diversos caminos que hay para adentrarse y progresar como profesional de la programación. Universidad, ciclos de formación profesional, bootcamps, formación autodidacta&#8230; Es una conversación recurrente entre developers y me apetecía hablar de ello. Mi resumen rápido del podcast es que lo más importante no...]]></description>
+	<itunes:subtitle><![CDATA[En este (posiblemente polémico) episodio te cuento mi opinión sobre los diversos caminos que hay para adentrarse y progresar como profesional de la programación. Universidad, ciclos de formación profesional, bootcamps, formación autodidacta&#8230; Es una]]></itunes:subtitle>
+								<content:encoded><![CDATA[En este (posiblemente polémico) episodio te cuento mi opinión sobre los diversos caminos que hay para adentrarse y progresar como profesional de la programación. Universidad, ciclos de formación profesional, bootcamps, formación autodidacta&#8230; Es una conversación recurrente entre developers y me apetecía hablar de ello. Mi resumen rápido del podcast es que lo más importante no...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/127/episodio-3-como-te-conviertes-en-developer.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[En este (posiblemente polémico) episodio te cuento mi opinión sobre los diversos caminos que hay para adentrarse y progresar como profesional de la programación. Universidad, ciclos de formación profesional, bootcamps, formación autodidacta&#8230; Es una conversación recurrente entre developers y me apetecía hablar de ello. Mi resumen rápido del podcast es que lo más importante no...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[En este (posiblemente polémico) episodio te cuento mi opinión sobre los diversos caminos que hay para adentrarse y progresar como profesional de la programación. Universidad, ciclos de formación profesional, bootcamps, formación autodidacta&#8230; Es una conversación recurrente entre developers y me apetecía hablar de ello. Mi resumen rápido del podcast es que lo más importante no...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>Episodio 2: Formación y aprendizaje</title>
+	<link>https://podcast.carlosble.com/podcast/episodio-2-formacion-y-aprendizaje/</link>
+	<pubDate>Sun, 26 Jan 2020 18:26:03 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=118</guid>
+	<description><![CDATA[Motivado y agradecido por las preguntas y opiniones del primer episodio, me he dispuesto a intentar aclarar dudas y a explicar cómo planifico mi propio aprendizaje. Desde este segundo episodio he decidido no seguir produciendo video porque la calidad del video no es suficientemente buena y el esfuerzo es muy grande, así que nos seguimos...]]></description>
+	<itunes:subtitle><![CDATA[Motivado y agradecido por las preguntas y opiniones del primer episodio, me he dispuesto a intentar aclarar dudas y a explicar cómo planifico mi propio aprendizaje. Desde este segundo episodio he decidido no seguir produciendo video porque la calidad del]]></itunes:subtitle>
+								<content:encoded><![CDATA[Motivado y agradecido por las preguntas y opiniones del primer episodio, me he dispuesto a intentar aclarar dudas y a explicar cómo planifico mi propio aprendizaje. Desde este segundo episodio he decidido no seguir produciendo video porque la calidad del video no es suficientemente buena y el esfuerzo es muy grande, así que nos seguimos...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/118/episodio-2-formacion-y-aprendizaje.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[Motivado y agradecido por las preguntas y opiniones del primer episodio, me he dispuesto a intentar aclarar dudas y a explicar cómo planifico mi propio aprendizaje. Desde este segundo episodio he decidido no seguir produciendo video porque la calidad del video no es suficientemente buena y el esfuerzo es muy grande, así que nos seguimos...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[Motivado y agradecido por las preguntas y opiniones del primer episodio, me he dispuesto a intentar aclarar dudas y a explicar cómo planifico mi propio aprendizaje. Desde este segundo episodio he decidido no seguir produciendo video porque la calidad del video no es suficientemente buena y el esfuerzo es muy grande, así que nos seguimos...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>Episodio 1: Tu formación es tu responsabilidad</title>
+	<link>https://podcast.carlosble.com/podcast/episodio-1-tu-formacion-es-tu-responsabilidad/</link>
+	<pubDate>Mon, 13 Jan 2020 14:04:20 +0000</pubDate>
+	<dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+	<guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=102</guid>
+	<description><![CDATA[&#160; ¿Debes formarte fuera del horario laboral? ¿cuánto tiempo a la semana? ¿qué materias debes estudiar? ¿tiene que ser todo técnico? En este episodio respondo a algunas preguntas que me hacen habitualmente sobre el aprendizaje y la formación en nuestra profesión. Pienso que la formación depende de mi mismo, no de mi empleador nide mis...]]></description>
+	<itunes:subtitle><![CDATA[&#160; ¿Debes formarte fuera del horario laboral? ¿cuánto tiempo a la semana? ¿qué materias debes estudiar? ¿tiene que ser todo técnico? En este episodio respondo a algunas preguntas que me hacen habitualmente sobre el aprendizaje y la formación en nuest]]></itunes:subtitle>
+								<content:encoded><![CDATA[&#160; ¿Debes formarte fuera del horario laboral? ¿cuánto tiempo a la semana? ¿qué materias debes estudiar? ¿tiene que ser todo técnico? En este episodio respondo a algunas preguntas que me hacen habitualmente sobre el aprendizaje y la formación en nuestra profesión. Pienso que la formación depende de mi mismo, no de mi empleador nide mis...]]></content:encoded>
+		<enclosure url="https://podcast.carlosble.com/podcast-download/102/episodio-1-tu-formacion-es-tu-responsabilidad.mp3" length="1"
+			   type="audio/mpeg"></enclosure>
+			<itunes:summary><![CDATA[&#160; ¿Debes formarte fuera del horario laboral? ¿cuánto tiempo a la semana? ¿qué materias debes estudiar? ¿tiene que ser todo técnico? En este episodio respondo a algunas preguntas que me hacen habitualmente sobre el aprendizaje y la formación en nuestra profesión. Pienso que la formación depende de mi mismo, no de mi empleador nide mis...]]></itunes:summary>
+			<itunes:explicit>clean</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[Carlos Blé]]></itunes:author>		<googleplay:description><![CDATA[&#160; ¿Debes formarte fuera del horario laboral? ¿cuánto tiempo a la semana? ¿qué materias debes estudiar? ¿tiene que ser todo técnico? En este episodio respondo a algunas preguntas que me hacen habitualmente sobre el aprendizaje y la formación en nuestra profesión. Pienso que la formación depende de mi mismo, no de mi empleador nide mis...]]></googleplay:description>
+				<googleplay:explicit>No</googleplay:explicit>
+		<googleplay:block>no</googleplay:block>
+</item>
+	</channel>
+</rss>
