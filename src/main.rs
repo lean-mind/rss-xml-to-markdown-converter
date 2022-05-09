@@ -1,9 +1,11 @@
 mod xml_definitions;
 mod yml_definitions;
 
-use std::fs::read_to_string;
+use std::fs::{read_to_string, File};
+use std::io::Write;
 use xml_definitions::*;
 use yml_definitions::*;
+use clap::Parser;
 
 fn read_rss_feed(filename: &str) -> RSSFeed {
     serde_xml_rs::from_str(&read_to_string(filename).expect("Can't read the RSS file"))
@@ -32,7 +34,26 @@ fn rss_feed_to_hugo_markdown(rss_feed: RSSFeed) -> String {
     format!("{}---\n", serde_yaml::to_string(&podcast).expect("Error converting to yaml"))
 }
 
-fn main() {}
+#[derive(Parser, Debug)]
+#[clap(author, version, about, long_about = None)]
+struct Args {
+    #[clap(short, long)]
+    input_filename: String,
+
+    #[clap(short, long)]
+    output_filename: String,
+}
+
+
+fn main() {
+    let args = Args::parse();
+    let input_filename = args.input_filename;
+    let output_filename = args.output_filename;
+
+    let markdown = rss_feed_to_hugo_markdown(read_rss_feed(&input_filename));
+    let mut file = File::create(output_filename).expect("Error creating file");
+    write!(file, "{}", markdown).expect("Error writing to file");
+}
 
 #[cfg(test)]
 mod tests {
@@ -41,7 +62,7 @@ mod tests {
     #[test]
     fn can_read_rss_feed() {
         assert_eq!(
-            read_rss_feed("examples/example.xml"),
+            read_rss_feed("examples/example_input.xml"),
             RSSFeed {
                 channel: Channel {
                     title: String::from("Ni cero, ni uno"),
@@ -79,7 +100,7 @@ mod tests {
     fn can_read_xml() {
         let expected = read_to_string("examples/example_output.md").expect("Can't read the file");
         assert_eq!(
-            rss_feed_to_hugo_markdown(read_rss_feed("examples/example.xml")),
+            rss_feed_to_hugo_markdown(read_rss_feed("examples/example_input.xml")),
             expected
         )
     }
