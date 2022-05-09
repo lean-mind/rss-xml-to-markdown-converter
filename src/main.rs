@@ -97,7 +97,7 @@ mod tests {
     }
 
     #[test]
-    fn can_read_xml() {
+    fn can_generate_markdown() {
         let expected = read_to_string("examples/example_output.md").expect("Can't read the file");
         assert_eq!(
             rss_feed_to_hugo_markdown(read_rss_feed("examples/example_input.xml")),
