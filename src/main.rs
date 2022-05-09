@@ -1,37 +1,30 @@
 mod xml_definitions;
 mod yml_definitions;
 
+use clap::Parser;
 use std::fs::{read_to_string, File};
 use std::io::Write;
 use xml_definitions::*;
 use yml_definitions::*;
-use clap::Parser;
 
 fn read_rss_feed(filename: &str) -> RSSFeed {
     serde_xml_rs::from_str(&read_to_string(filename).expect("Can't read the RSS file"))
         .expect("File with wrong format")
 }
 
-fn rss_feed_to_hugo_markdown(rss_feed: RSSFeed) -> String {
-    let channel = rss_feed.channel;
-    let podcast = Podcast {
-        title: channel.title,
-        description: channel.description,
-        name: channel.owner.name,
-        email: channel.owner.email,
-        episodes: channel
-            .items
-            .into_iter()
-            .map(|item| Episode {
-                title: item.title,
-                link: item.link,
-                date: item.date,
-                description: item.description,
-                link_mp3: item.enclosure.link_mp3,
-            })
-            .collect(),
-    };
-    format!("{}---\n", serde_yaml::to_string(&podcast).expect("Error converting to yaml"))
+fn podcast_to_hugo_markdown(podcast: &Podcast) -> String {
+    format!(
+        "{}---\n",
+        serde_yaml::to_string(&podcast).expect("Error converting to yaml")
+    )
+}
+
+fn episode_to_hugo_markdown(podcast: &Podcast, episode_index: usize) -> String {
+    let episode = EpisodeWithPodcastData::from_podcast(podcast, episode_index);
+    format!(
+        "{}---\n",
+        serde_yaml::to_string(&episode).expect("Error converting to yaml")
+    )
 }
 
 #[derive(Parser, Debug)]
@@ -44,13 +37,13 @@ struct Args {
     output_filename: String,
 }
 
-
 fn main() {
     let args = Args::parse();
     let input_filename = args.input_filename;
     let output_filename = args.output_filename;
 
-    let markdown = rss_feed_to_hugo_markdown(read_rss_feed(&input_filename));
+    let podcast = Podcast::from_rss_feed(read_rss_feed(&input_filename));
+    let markdown = podcast_to_hugo_markdown(&podcast);
     let mut file = File::create(output_filename).expect("Error creating file");
     write!(file, "{}", markdown).expect("Error writing to file");
 }
@@ -99,9 +92,15 @@ mod tests {
     #[test]
     fn can_generate_markdown() {
         let expected = read_to_string("examples/example_output.md").expect("Can't read the file");
-        assert_eq!(
-            rss_feed_to_hugo_markdown(read_rss_feed("examples/example_input.xml")),
-            expected
-        )
+        let podcast = Podcast::from_rss_feed(read_rss_feed("examples/example_input.xml"));
+        assert_eq!(podcast_to_hugo_markdown(&podcast), expected)
+    }
+
+    #[test]
+    fn can_generate_episode_markdown() {
+        let expected =
+            read_to_string("examples/example_episode_output.md").expect("Can't read the file");
+        let podcast = Podcast::from_rss_feed(read_rss_feed("examples/example_input.xml"));
+        assert_eq!(episode_to_hugo_markdown(&podcast, 0), expected)
     }
 }
