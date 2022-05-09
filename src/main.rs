@@ -2,10 +2,11 @@ mod xml_definitions;
 mod yml_definitions;
 
 use clap::Parser;
-use std::fs::{read_to_string, File};
+use std::fs::{read_to_string, File, create_dir_all};
 use std::io::Write;
 use xml_definitions::*;
 use yml_definitions::*;
+use std::path::Path;
 
 fn read_rss_feed(filename: &str) -> RSSFeed {
     serde_xml_rs::from_str(&read_to_string(filename).expect("Can't read the RSS file"))
@@ -30,22 +31,35 @@ fn episode_to_hugo_markdown(podcast: &Podcast, episode_index: usize) -> String {
 #[derive(Parser, Debug)]
 #[clap(author, version, about, long_about = None)]
 struct Args {
-    #[clap(short, long)]
+    /// The name of a file from which the RSS feed will be readº
     input_filename: String,
-
-    #[clap(short, long)]
-    output_filename: String,
+    /// Where to save the output. By default a file will be created, but
+    /// if separate_by_episodes is set, a directory will be created with
+    /// one file per episode
+    output_path: String,
+    /// If this flag is set, a file will be created for each episode
+    #[clap(short='e', long)]
+    separate_by_episodes: bool,
 }
 
 fn main() {
     let args = Args::parse();
-    let input_filename = args.input_filename;
-    let output_filename = args.output_filename;
 
-    let podcast = Podcast::from_rss_feed(read_rss_feed(&input_filename));
-    let markdown = podcast_to_hugo_markdown(&podcast);
-    let mut file = File::create(output_filename).expect("Error creating file");
-    write!(file, "{}", markdown).expect("Error writing to file");
+    let podcast = Podcast::from_rss_feed(read_rss_feed(&args.input_filename));
+    if args.separate_by_episodes {
+        let output_path = Path::new(&args.output_path);
+        create_dir_all(output_path).expect("Error creating directory");
+        for episode_index in 0..podcast.episodes.len() {
+            let markdown = episode_to_hugo_markdown(&podcast, episode_index);
+            let filename = "1.md"; // TODO
+            let mut file = File::create(output_path.join(filename)).expect("Error creating file");
+            write!(file, "{}", markdown).expect("Error writing to file");
+        }
+    } else {
+        let markdown = podcast_to_hugo_markdown(&podcast, );
+        let mut file = File::create(args.output_path).expect("Error creating file");
+        write!(file, "{}", markdown).expect("Error writing to file");
+    }
 }
 
 #[cfg(test)]
@@ -55,7 +69,7 @@ mod tests {
     #[test]
     fn can_read_rss_feed() {
         assert_eq!(
-            read_rss_feed("examples/example_input.xml"),
+            read_rss_feed("examples/example_input_filename.xml"),
             RSSFeed {
                 channel: Channel {
                     title: String::from("Ni cero, ni uno"),
@@ -92,7 +106,7 @@ mod tests {
     #[test]
     fn can_generate_markdown() {
         let expected = read_to_string("examples/example_output.md").expect("Can't read the file");
-        let podcast = Podcast::from_rss_feed(read_rss_feed("examples/example_input.xml"));
+        let podcast = Podcast::from_rss_feed(read_rss_feed("examples/example_input_filename.xml"));
         assert_eq!(podcast_to_hugo_markdown(&podcast), expected)
     }
 
@@ -100,7 +114,7 @@ mod tests {
     fn can_generate_episode_markdown() {
         let expected =
             read_to_string("examples/example_episode_output.md").expect("Can't read the file");
-        let podcast = Podcast::from_rss_feed(read_rss_feed("examples/example_input.xml"));
+        let podcast = Podcast::from_rss_feed(read_rss_feed("examples/example_input_filename.xml"));
         assert_eq!(episode_to_hugo_markdown(&podcast, 0), expected)
     }
 }
