@@ -1,47 +1,35 @@
-use serde::{Deserialize, Serialize};
-use serde_xml_rs::from_str;
+mod xml_definitions;
+mod yml_definitions;
+
 use std::fs::read_to_string;
+use xml_definitions::*;
+use yml_definitions::*;
 
-#[derive(Debug, Serialize, Deserialize, PartialEq)]
-struct RSSFeed {
-    channel: Channel,
-}
-
-#[derive(Debug, Serialize, Deserialize, PartialEq)]
-struct Channel {
-    title: String,
-    description: String,
-    owner: Owner,
-    #[serde(rename="item")]
-    items: Vec<Item>,
-}
-
-#[derive(Debug, Serialize, Deserialize, PartialEq)]
-struct Item {
-    title: String,
-    link: String,
-    #[serde(rename="pubDate")]
-    date: String,
-    #[serde(rename="summary")]
-    description: String,
-    enclosure: Enclosure,
-}
-
-#[derive(Debug, Serialize, Deserialize, PartialEq)]
-struct Enclosure {
-    #[serde(rename="url")]
-    link_mp3: String,
-}
-
-#[derive(Debug, Serialize, Deserialize, PartialEq)]
-struct Owner {
-    name: String,
-    email: String,
-}
-
-fn read_xml(filename: &str) -> RSSFeed {
-    from_str(&read_to_string(filename).expect("Can't read the file"))
+fn read_rss_feed(filename: &str) -> RSSFeed {
+    serde_xml_rs::from_str(&read_to_string(filename).expect("Can't read the RSS file"))
         .expect("File with wrong format")
+}
+
+fn rss_feed_to_hugo_markdown(rss_feed: RSSFeed) -> String {
+    let channel = rss_feed.channel;
+    let podcast = Podcast {
+        title: channel.title,
+        description: channel.description,
+        name: channel.owner.name,
+        email: channel.owner.email,
+        episodes: channel
+            .items
+            .into_iter()
+            .map(|item| Episode {
+                title: item.title,
+                link: item.link,
+                date: item.date,
+                description: item.description,
+                link_mp3: item.enclosure.link_mp3,
+            })
+            .collect(),
+    };
+    format!("{}---\n", serde_yaml::to_string(&podcast).expect("Error converting to yaml"))
 }
 
 fn main() {}
@@ -51,9 +39,9 @@ mod tests {
     use super::*;
 
     #[test]
-    fn can_read_xml() {
+    fn can_read_rss_feed() {
         assert_eq!(
-            read_xml("example.xml"),
+            read_rss_feed("examples/example.xml"),
             RSSFeed {
                 channel: Channel {
                     title: String::from("Ni cero, ni uno"),
@@ -71,7 +59,7 @@ mod tests {
                             enclosure: Enclosure {
                                 link_mp3: String::from("https://podcast.carlosble.com/podcast-download/1220/e32-para-que-impartir-una-ponencia.mp3"),
                             }
-                        }, 
+                        },
                         Item {
                             title: String::from("E31: El sendero de la maestría (III)"),
                             link: String::from("https://podcast.carlosble.com/podcast/e31-el-sendero-de-la-maestria-iii/"),
@@ -80,11 +68,19 @@ mod tests {
                             enclosure: Enclosure {
                                 link_mp3: String::from("https://podcast.carlosble.com/podcast-download/1216/e31-el-sendero-de-la-maestria-iii.mp3"),
                             }
-                        
                         }
                     ]
                 }
             }
         );
+    }
+
+    #[test]
+    fn can_read_xml() {
+        let expected = read_to_string("examples/example_output.md").expect("Can't read the file");
+        assert_eq!(
+            rss_feed_to_hugo_markdown(read_rss_feed("examples/example.xml")),
+            expected
+        )
     }
 }
