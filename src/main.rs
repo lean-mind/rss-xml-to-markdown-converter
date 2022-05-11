@@ -63,12 +63,12 @@ fn generate_episode_files(podcast: &Podcast, output_path: &Path) {
     create_dir_all(output_path).expect("Error creating directory");
     for episode_index in 0..podcast.episodes.len() {
         let markdown = episode_to_hugo_markdown(podcast, episode_index);
-        let filename = "1.md"; // TODO
+        let episode_title = &podcast.episodes[episode_index].title;
+        let filename = episode_title.replace(" ", "_") + ".md";
         let mut file = File::create(output_path.join(filename)).expect("Error creating file");
         write!(file, "{}", markdown).expect("Error writing to file");
     }
 }
-
 #[cfg(test)]
 mod tests {
     use super::*;
