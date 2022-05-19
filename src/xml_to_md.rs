@@ -1,8 +1,8 @@
+use crate::xml_definitions::*;
+use crate::yml_definitions::*;
 use std::fs::{create_dir_all, read_to_string, File};
 use std::io::Write;
 use std::path::Path;
-use crate::xml_definitions::*;
-use crate::yml_definitions::*;
 
 pub fn read_rss_feed(filename: &str) -> RSSFeed {
     serde_xml_rs::from_str(&read_to_string(filename).expect("Can't read the RSS file"))
@@ -25,22 +25,21 @@ fn episode_to_hugo_markdown(podcast: &Podcast, episode_index: usize) -> String {
 }
 
 pub fn generate_podcast_file(podcast: &Podcast, output_path: &Path) {
-  let markdown = podcast_to_hugo_markdown(podcast);
-  let mut file = File::create(output_path).expect("Error creating file");
-  write!(file, "{}", markdown).expect("Error writing to file");
+    let markdown = podcast_to_hugo_markdown(podcast);
+    let mut file = File::create(output_path).expect("Error creating file");
+    write!(file, "{}", markdown).expect("Error writing to file");
 }
 
 pub fn generate_episode_files(podcast: &Podcast, output_path: &Path) {
-  create_dir_all(output_path).expect("Error creating directory");
-  for episode_index in 0..podcast.episodes.len() {
-      let markdown = episode_to_hugo_markdown(podcast, episode_index);
-      let episode_title = &podcast.episodes[episode_index].title;
-      let filename = episode_title.replace(" ", "_") + ".md";
-      let mut file = File::create(output_path.join(filename)).expect("Error creating file");
-      write!(file, "{}", markdown).expect("Error writing to file");
-  }
+    create_dir_all(output_path).expect("Error creating directory");
+    for episode_index in 0..podcast.episodes.len() {
+        let markdown = episode_to_hugo_markdown(podcast, episode_index);
+        let episode_title = &podcast.episodes[episode_index].title;
+        let filename = episode_title.replace(" ", "_") + ".md";
+        let mut file = File::create(output_path.join(filename)).expect("Error creating file");
+        write!(file, "{}", markdown).expect("Error writing to file");
+    }
 }
-
 
 #[cfg(test)]
 mod tests {

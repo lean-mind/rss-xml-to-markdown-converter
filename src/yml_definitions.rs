@@ -1,5 +1,5 @@
-use serde::{Deserialize, Serialize};
 use crate::RSSFeed;
+use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
 pub struct Podcast {
