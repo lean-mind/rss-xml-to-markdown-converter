@@ -5,6 +5,7 @@ use serde::{Deserialize, Serialize};
 pub struct Podcast {
     pub title: String,
     pub description: String,
+    pub subtitle: String,
     pub author_name: String,
     pub author_email: String,
     pub episodes: Vec<Episode>,
@@ -25,6 +26,7 @@ impl Podcast {
         Self {
             title: channel.title,
             description: channel.description,
+            subtitle: channel.subtitle,
             author_name: channel.owner.name,
             author_email: channel.owner.email,
             episodes: channel
@@ -46,6 +48,7 @@ impl Podcast {
 pub struct EpisodeWithPodcastData {
     pub podcast_title: String,
     pub podcast_description: String,
+    pub podcast_subtitle: String,
     pub author_name: String,
     pub author_email: String,
     pub title: String,
@@ -61,6 +64,7 @@ impl EpisodeWithPodcastData {
         Self {
             podcast_title: podcast.title.clone(),
             podcast_description: podcast.description.clone(),
+            podcast_subtitle: podcast.subtitle.clone(),
             author_name: podcast.author_name.clone(),
             author_email: podcast.author_email.clone(),
             title: episode.title,

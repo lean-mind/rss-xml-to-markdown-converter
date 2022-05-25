@@ -9,6 +9,7 @@ pub struct RSSFeed {
 pub struct Channel {
     pub title: String,
     pub description: String,
+    pub subtitle: String,
     pub owner: Owner,
     #[serde(rename = "item")]
     pub items: Vec<Item>,
