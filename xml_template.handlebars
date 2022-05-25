@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://podcast.carlosble.com/wp-content/plugins/seriously-simple-podcasting/templates/feed-stylesheet.xsl"?><rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+    >
+<channel>
+    <title>{{{title}}}</title>
+    <atom:link href="https://podcast.carlosble.com/feed/podcast" rel="self" type="application/rss+xml"/>
+    <link>https://podcast.carlosble.com/</link>
+    <description>{{{description}}}</description>
+    <lastBuildDate>Thu, 14 Apr 2022 15:58:24 +0000</lastBuildDate>
+    <language>es</language>
+    <copyright>© 2021 Savvily</copyright>
+    <itunes:subtitle>Habilidades esenciales en un mundo tecnológico</itunes:subtitle>
+    <itunes:author>{{{author_name}}}</itunes:author>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>{{{description}}}</itunes:summary>
+    <itunes:owner>
+        <itunes:name>{{{author_name}}}</itunes:name>
+        <itunes:email>{{{author_email}}}</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:complete>yes</itunes:complete>
+    <itunes:image href="https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg"></itunes:image>
+        <image>
+            <url>https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg</url>
+            <title>{{{title}}}</title>
+            <link>https://podcast.carlosble.com/</link>
+        </image>
+    <itunes:category text="Society &amp; Culture">
+        <itunes:category text="Philosophy"></itunes:category>
+    </itunes:category>
+    <itunes:category text="Technology"></itunes:category>
+    <itunes:category text="Education">
+        <itunes:category text="How to"></itunes:category>
+    </itunes:category>
+    <podcast:locked owner="{{{author_email}}}">yes</podcast:locked>
+    <podcast:guid>dcf1e251-d17c-5ef0-ba70-1c616d08aecf</podcast:guid>
+    <generator>https://wordpress.org/?v=5.9.3</generator>
+
+{{#each episodes}}
+    <item>
+        <title>{{{title}}}</title>
+        <link>{{{link}}}</link>
+        <pubDate>{{{date}}}</pubDate>
+        <dc:creator><![CDATA[{{{../author_name}}}]]></dc:creator>
+        <guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1220</guid>
+        <description><![CDATA[{{{description}}}]]></description>
+        <itunes:subtitle><![CDATA[{{{truncate description 263}}}]]></itunes:subtitle>
+        <content:encoded><![CDATA[{{{description}}}]]></content:encoded>
+        <enclosure url="{{{link_mp3}}}" length="1" type="audio/mpeg"></enclosure>
+        <itunes:summary><![CDATA[{{{description}}}]]></itunes:summary>
+        <itunes:explicit>clean</itunes:explicit>
+        <itunes:block>no</itunes:block>
+        <itunes:duration>0:00</itunes:duration>
+        <itunes:author><![CDATA[{{{../author_name}}}]]></itunes:author>
+        <googleplay:description><![CDATA[{{{description}}}]]></googleplay:description>
+        <googleplay:explicit>No</googleplay:explicit>
+        <googleplay:block>no</googleplay:block>
+    </item>
+
+{{/each}}
+
+</channel>
+</rss>

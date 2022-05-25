@@ -1,10 +1,25 @@
 use crate::yml_definitions::*;
+use handlebars::{handlebars_helper, Handlebars};
 use std::fs::read_to_string;
 
 fn read_md(filename: &str) -> Podcast {
     let file_content = &read_to_string(filename).expect("Can't read the RSS file");
     let yaml = &file_content[0..file_content.len() - 5];
     serde_yaml::from_str(yaml).expect("File with wrong format")
+}
+
+fn markdown_to_xml(podcast: Podcast) -> String {
+    let mut handlebars = Handlebars::new();
+    let template = String::from_utf8_lossy(include_bytes!("../xml_template.handlebars"));
+    register_truncate_helper(&mut handlebars);
+    handlebars
+        .render_template(&template, &podcast)
+        .expect("Couldn't render the template")
+}
+
+fn register_truncate_helper(handlebars: &mut Handlebars) {
+    handlebars_helper!(truncate: |string: String, max: usize| &string[..max]);
+    handlebars.register_helper("truncate", Box::new(truncate))
 }
 
 #[cfg(test)]
@@ -35,5 +50,19 @@ mod tests {
                 }],
             }
         );
+    }
+
+    #[test]
+    fn generate_xml() -> std::io::Result<()> {
+        let expected = read_to_string("examples/example_input.xml")?;
+        let actual = markdown_to_xml(read_md("examples/example_input.md"));
+        actual
+            .split("\n")
+            .zip(expected.split("\n"))
+            .enumerate()
+            .for_each(|(line_number, (actual_line, expected_line))| {
+                assert_eq!((line_number, actual_line), (line_number, expected_line))
+            });
+        Ok(())
     }
 }
