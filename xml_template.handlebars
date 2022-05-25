@@ -51,9 +51,9 @@
         <link>{{{link}}}</link>
         <pubDate>{{{date}}}</pubDate>
         <dc:creator><![CDATA[{{{../author_name}}}]]></dc:creator>
-        <guid isPermaLink="false">https://podcast.carlosble.com/?post_type=podcast&#038;p=1220</guid>
+        <guid isPermaLink="false">{{{link}}}</guid>
         <description><![CDATA[{{{description}}}]]></description>
-        <itunes:subtitle><![CDATA[{{{truncate description 263}}}]]></itunes:subtitle>
+        <itunes:subtitle><![CDATA[{{{description}}}]]></itunes:subtitle>
         <content:encoded><![CDATA[{{{description}}}]]></content:encoded>
         <enclosure url="{{{link_mp3}}}" length="1" type="audio/mpeg"></enclosure>
         <itunes:summary><![CDATA[{{{description}}}]]></itunes:summary>
@@ -67,6 +67,5 @@
     </item>
 
 {{/each}}
-
 </channel>
 </rss>

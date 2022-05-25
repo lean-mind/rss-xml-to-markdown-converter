@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://podcast.carlosble.com/wp-content/plugins/seriously-simple-podcasting/templates/feed-stylesheet.xsl"?><rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+    >
+<channel>
+    <title>Ni cero, ni uno</title>
+    <atom:link href="https://podcast.carlosble.com/feed/podcast" rel="self" type="application/rss+xml"/>
+    <link>https://podcast.carlosble.com/</link>
+    <description>Un punto de vista diferente, peculiar y atrevido sobre la industria del desarrollo de software y sobre las habilidades que más se necesitan en este mundo tecnológico que en verdad gira en torno a las personas.
+
+Carlos Blé, fundador de varias empresas y actual director de Lean Mind, narra sus experiencias y cuenta con colaboraciones de profesionales de diversos ámbitos.</description>
+    <lastBuildDate>Thu, 14 Apr 2022 15:58:24 +0000</lastBuildDate>
+    <language>es</language>
+    <copyright>© 2021 Savvily</copyright>
+    <itunes:subtitle>Habilidades esenciales en un mundo tecnológico</itunes:subtitle>
+    <itunes:author>Carlos Blé</itunes:author>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>Un punto de vista diferente, peculiar y atrevido sobre la industria del desarrollo de software y sobre las habilidades que más se necesitan en este mundo tecnológico que en verdad gira en torno a las personas.
+
+Carlos Blé, fundador de varias empresas y actual director de Lean Mind, narra sus experiencias y cuenta con colaboraciones de profesionales de diversos ámbitos.</itunes:summary>
+    <itunes:owner>
+        <itunes:name>Carlos Blé</itunes:name>
+        <itunes:email>carlos@carlosble.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:complete>yes</itunes:complete>
+    <itunes:image href="https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg"></itunes:image>
+        <image>
+            <url>https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg</url>
+            <title>Ni cero, ni uno</title>
+            <link>https://podcast.carlosble.com/</link>
+        </image>
+    <itunes:category text="Society &amp; Culture">
+        <itunes:category text="Philosophy"></itunes:category>
+    </itunes:category>
+    <itunes:category text="Technology"></itunes:category>
+    <itunes:category text="Education">
+        <itunes:category text="How to"></itunes:category>
+    </itunes:category>
+    <podcast:locked owner="carlos@carlosble.com">yes</podcast:locked>
+    <podcast:guid>dcf1e251-d17c-5ef0-ba70-1c616d08aecf</podcast:guid>
+    <generator>https://wordpress.org/?v=5.9.3</generator>
+
+    <item>
+        <title>E32: ¿Para qué impartir una ponencia?</title>
+        <link>https://podcast.carlosble.com/podcast/e32-para-que-impartir-una-ponencia/</link>
+        <pubDate>Thu, 14 Apr 2022 15:58:24 +0000</pubDate>
+        <dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+        <guid isPermaLink="false">https://podcast.carlosble.com/podcast/e32-para-que-impartir-una-ponencia/</guid>
+        <description><![CDATA[¿Para qué dar una charla?, ¿por qué exponerse?, ¿qué puedes aportar cuando parece que ya está todo en internet?. En este episodio converso con Adrián Ferrera, Francisco Mesa y Miguel Cabrera. Además, contamos con mensajes grabados de ponentes que me encantan, Yodra López, Jorge J. Barroso, Aida Albarrán y Alexandra Rivero. Contribuciones: Yodra López (1:07:09)...]]></description>
+        <itunes:subtitle><![CDATA[¿Para qué dar una charla?, ¿por qué exponerse?, ¿qué puedes aportar cuando parece que ya está todo en internet?. En este episodio converso con Adrián Ferrera, Francisco Mesa y Miguel Cabrera. Además, contamos con mensajes grabados de ponentes que me encantan, Yodra López, Jorge J. Barroso, Aida Albarrán y Alexandra Rivero. Contribuciones: Yodra López (1:07:09)...]]></itunes:subtitle>
+        <content:encoded><![CDATA[¿Para qué dar una charla?, ¿por qué exponerse?, ¿qué puedes aportar cuando parece que ya está todo en internet?. En este episodio converso con Adrián Ferrera, Francisco Mesa y Miguel Cabrera. Además, contamos con mensajes grabados de ponentes que me encantan, Yodra López, Jorge J. Barroso, Aida Albarrán y Alexandra Rivero. Contribuciones: Yodra López (1:07:09)...]]></content:encoded>
+        <enclosure url="https://podcast.carlosble.com/podcast-download/1220/e32-para-que-impartir-una-ponencia.mp3" length="1" type="audio/mpeg"></enclosure>
+        <itunes:summary><![CDATA[¿Para qué dar una charla?, ¿por qué exponerse?, ¿qué puedes aportar cuando parece que ya está todo en internet?. En este episodio converso con Adrián Ferrera, Francisco Mesa y Miguel Cabrera. Además, contamos con mensajes grabados de ponentes que me encantan, Yodra López, Jorge J. Barroso, Aida Albarrán y Alexandra Rivero. Contribuciones: Yodra López (1:07:09)...]]></itunes:summary>
+        <itunes:explicit>clean</itunes:explicit>
+        <itunes:block>no</itunes:block>
+        <itunes:duration>0:00</itunes:duration>
+        <itunes:author><![CDATA[Carlos Blé]]></itunes:author>
+        <googleplay:description><![CDATA[¿Para qué dar una charla?, ¿por qué exponerse?, ¿qué puedes aportar cuando parece que ya está todo en internet?. En este episodio converso con Adrián Ferrera, Francisco Mesa y Miguel Cabrera. Además, contamos con mensajes grabados de ponentes que me encantan, Yodra López, Jorge J. Barroso, Aida Albarrán y Alexandra Rivero. Contribuciones: Yodra López (1:07:09)...]]></googleplay:description>
+        <googleplay:explicit>No</googleplay:explicit>
+        <googleplay:block>no</googleplay:block>
+    </item>
+
+    <item>
+        <title>E31: El sendero de la maestría (III)</title>
+        <link>https://podcast.carlosble.com/podcast/e31-el-sendero-de-la-maestria-iii/</link>
+        <pubDate>Fri, 18 Mar 2022 09:43:27 +0000</pubDate>
+        <dc:creator><![CDATA[Carlos Blé]]></dc:creator>
+        <guid isPermaLink="false">https://podcast.carlosble.com/podcast/e31-el-sendero-de-la-maestria-iii/</guid>
+        <description><![CDATA[Terminamos la serie de epidosodios sobre aprendizaje (por ahora), con el gran Jose Enrique Rodríguez Huerta, actualmente director de Codurance España. En esta conversación José nos habla de cultura empresarial, liderazgo, carrera profesional, trabajo en equipo y por supuesto, aprendizaje. Recursos citados en el episodio (y otros que olvidé citar): Libro: Tribal Leadership Trabajar en...]]></description>
+        <itunes:subtitle><![CDATA[Terminamos la serie de epidosodios sobre aprendizaje (por ahora), con el gran Jose Enrique Rodríguez Huerta, actualmente director de Codurance España. En esta conversación José nos habla de cultura empresarial, liderazgo, carrera profesional, trabajo en equipo y por supuesto, aprendizaje. Recursos citados en el episodio (y otros que olvidé citar): Libro: Tribal Leadership Trabajar en...]]></itunes:subtitle>
+        <content:encoded><![CDATA[Terminamos la serie de epidosodios sobre aprendizaje (por ahora), con el gran Jose Enrique Rodríguez Huerta, actualmente director de Codurance España. En esta conversación José nos habla de cultura empresarial, liderazgo, carrera profesional, trabajo en equipo y por supuesto, aprendizaje. Recursos citados en el episodio (y otros que olvidé citar): Libro: Tribal Leadership Trabajar en...]]></content:encoded>
+        <enclosure url="https://podcast.carlosble.com/podcast-download/1216/e31-el-sendero-de-la-maestria-iii.mp3" length="1" type="audio/mpeg"></enclosure>
+        <itunes:summary><![CDATA[Terminamos la serie de epidosodios sobre aprendizaje (por ahora), con el gran Jose Enrique Rodríguez Huerta, actualmente director de Codurance España. En esta conversación José nos habla de cultura empresarial, liderazgo, carrera profesional, trabajo en equipo y por supuesto, aprendizaje. Recursos citados en el episodio (y otros que olvidé citar): Libro: Tribal Leadership Trabajar en...]]></itunes:summary>
+        <itunes:explicit>clean</itunes:explicit>
+        <itunes:block>no</itunes:block>
+        <itunes:duration>0:00</itunes:duration>
+        <itunes:author><![CDATA[Carlos Blé]]></itunes:author>
+        <googleplay:description><![CDATA[Terminamos la serie de epidosodios sobre aprendizaje (por ahora), con el gran Jose Enrique Rodríguez Huerta, actualmente director de Codurance España. En esta conversación José nos habla de cultura empresarial, liderazgo, carrera profesional, trabajo en equipo y por supuesto, aprendizaje. Recursos citados en el episodio (y otros que olvidé citar): Libro: Tribal Leadership Trabajar en...]]></googleplay:description>
+        <googleplay:explicit>No</googleplay:explicit>
+        <googleplay:block>no</googleplay:block>
+    </item>
+
+</channel>
+</rss>
