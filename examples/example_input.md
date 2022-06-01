@@ -1,5 +1,7 @@
 ---
 title: "Ni cero, ni uno"
+feed_link: "https://podcast.carlosble.com/feed/podcast"
+page_link: "https://podcast.carlosble.com/"
 description: "Un punto de vista diferente, peculiar y atrevido sobre la industria del desarrollo de software y sobre las habilidades que más se necesitan en este mundo tecnológico que en verdad gira en torno a las personas.\n\nCarlos Blé, fundador de varias empresas y actual director de Lean Mind, narra sus experiencias y cuenta con colaboraciones de profesionales de diversos ámbitos."
 subtitle: Habilidades esenciales en un mundo tecnológico
 author_name: Carlos Blé

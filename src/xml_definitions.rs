@@ -8,11 +8,21 @@ pub struct RSSFeed {
 #[derive(Debug, Serialize, Deserialize, PartialEq)]
 pub struct Channel {
     pub title: String,
+    #[serde(rename = "link")]
+    pub links: Vec<Link>,
     pub description: String,
     pub subtitle: String,
     pub owner: Owner,
     #[serde(rename = "item")]
     pub items: Vec<Item>,
+}
+
+#[derive(Debug, Serialize, Deserialize, PartialEq)]
+pub struct Link {
+    #[serde(rename = "href")]
+    pub feed_link: Option<String>,
+    #[serde(rename = "$value")]
+    pub page_link: Option<String>,
 }
 
 #[derive(Debug, Serialize, Deserialize, PartialEq)]

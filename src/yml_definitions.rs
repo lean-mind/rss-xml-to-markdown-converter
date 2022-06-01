@@ -4,6 +4,8 @@ use serde::{Deserialize, Serialize};
 #[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
 pub struct Podcast {
     pub title: String,
+    pub feed_link: String,
+    pub page_link: String,
     pub description: String,
     pub subtitle: String,
     pub author_name: String,
@@ -23,8 +25,23 @@ pub struct Episode {
 impl Podcast {
     pub fn from_rss_feed(rss_feed: RSSFeed) -> Self {
         let channel = rss_feed.channel;
+        let links = dbg!(channel.links);
+        let feed_link = links[0]
+            .feed_link
+            .as_ref()
+            .or(links[1].feed_link.as_ref())
+            .unwrap()
+            .clone();
+        let page_link = links[1]
+            .page_link
+            .as_ref()
+            .or(links[0].page_link.as_ref())
+            .unwrap()
+            .clone();
         Self {
             title: channel.title,
+            feed_link,
+            page_link,
             description: channel.description,
             subtitle: channel.subtitle,
             author_name: channel.owner.name,
