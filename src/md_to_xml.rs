@@ -23,7 +23,7 @@ mod tests {
     #[test]
     fn can_read_md() {
         assert_eq!(
-            read_md("examples/example_input.md"),
+            read_md("examples/podcast_example.md"),
             Podcast {
                 title: String::from("Ni cero, ni uno"),
                 feed_link: String::from("https://podcast.carlosble.com/feed/podcast"),
@@ -52,8 +52,8 @@ mod tests {
 
     #[test]
     fn generate_xml() -> std::io::Result<()> {
-        let expected = read_to_string("examples/example_output.xml")?;
-        let actual = markdown_to_xml(read_md("examples/example_input.md"));
+        let expected = read_to_string("examples/output_example.xml")?;
+        let actual = markdown_to_xml(read_md("examples/podcast_example.md"));
         actual
             .split("\n")
             .zip(expected.split("\n"))

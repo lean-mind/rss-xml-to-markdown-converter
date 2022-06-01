@@ -48,7 +48,7 @@ mod tests {
     #[test]
     fn can_read_rss_feed() {
         assert_eq!(
-            read_rss_feed("examples/example_input.xml"),
+            read_rss_feed("examples/input_example.xml"),
             RSSFeed {
                 channel: Channel {
                     title: String::from("Ni cero, ni uno"),
@@ -96,16 +96,15 @@ mod tests {
 
     #[test]
     fn can_generate_markdown() {
-        let expected = read_to_string("examples/example_output.md").expect("Can't read the file");
-        let podcast = Podcast::from_rss_feed(read_rss_feed("examples/example_input.xml"));
+        let expected = read_to_string("examples/podcast_example.md").expect("Can't read the file");
+        let podcast = Podcast::from_rss_feed(read_rss_feed("examples/input_example.xml"));
         assert_eq!(podcast_to_hugo_markdown(&podcast), expected)
     }
 
     #[test]
     fn can_generate_episode_markdown() {
-        let expected =
-            read_to_string("examples/example_episode_output.md").expect("Can't read the file");
-        let podcast = Podcast::from_rss_feed(read_rss_feed("examples/example_input.xml"));
+        let expected = read_to_string("examples/episode_example.md").expect("Can't read the file");
+        let podcast = Podcast::from_rss_feed(read_rss_feed("examples/input_example.xml"));
         assert_eq!(episode_to_hugo_markdown(&podcast, 0), expected)
     }
 }
