@@ -56,7 +56,7 @@ mod tests {
                         feed_link: Some(String::from("https://podcast.carlosble.com/feed/podcast")),
                         page_link: None,
                     }, Link{
-                        feed_link: None, 
+                        feed_link: None,
                         page_link: Some(String::from("https://podcast.carlosble.com/")),
                     }],
                     description: String::from("Un punto de vista diferente, peculiar y atrevido sobre la industria del desarrollo de software y sobre las habilidades que más se necesitan en este mundo tecnológico que en verdad gira en torno a las personas.\n\nCarlos Blé, fundador de varias empresas y actual director de Lean Mind, narra sus experiencias y cuenta con colaboraciones de profesionales de diversos ámbitos."),
@@ -65,6 +65,10 @@ mod tests {
                         name: String::from("Carlos Blé"),
                         email: String::from("carlos@carlosble.com")
                     },
+                    images: vec![Image {
+                        link: Some(String::from("https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg")),
+                    }, Image { link: None}
+                    ],
                     items: vec![
                         Item {
                             title: String::from("E32: ¿Para qué impartir una ponencia?"),

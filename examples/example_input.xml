@@ -33,11 +33,11 @@ Carlos Blé, fundador de varias empresas y actual director de Lean Mind, narra s
     <itunes:explicit>clean</itunes:explicit>
     <itunes:complete>yes</itunes:complete>
     <itunes:image href="https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg"></itunes:image>
-        <image>
-            <url>https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg</url>
-            <title>Ni cero, ni uno</title>
-            <link>https://podcast.carlosble.com/</link>
-        </image>
+    <image>
+        <url>https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg</url>
+        <title>Ni cero, ni uno</title>
+        <link>https://podcast.carlosble.com/</link>
+    </image>
     <itunes:category text="Society &amp; Culture">
         <itunes:category text="Philosophy"></itunes:category>
     </itunes:category>

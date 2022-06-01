@@ -6,6 +6,7 @@ description: "Un punto de vista diferente, peculiar y atrevido sobre la industri
 subtitle: Habilidades esenciales en un mundo tecnológico
 author_name: Carlos Blé
 author_email: carlos@carlosble.com
+image_link: "https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg"
 episodes:
   - title: "E32: ¿Para qué impartir una ponencia?"
     link: "https://podcast.carlosble.com/podcast/e32-para-que-impartir-una-ponencia/"

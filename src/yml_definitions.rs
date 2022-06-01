@@ -10,6 +10,7 @@ pub struct Podcast {
     pub subtitle: String,
     pub author_name: String,
     pub author_email: String,
+    pub image_link: String,
     pub episodes: Vec<Episode>,
 }
 
@@ -38,6 +39,12 @@ impl Podcast {
             .or(links[0].page_link.as_ref())
             .unwrap()
             .clone();
+        let image_link = channel.images[0]
+            .link
+            .as_ref()
+            .or(channel.images[1].link.as_ref())
+            .unwrap()
+            .clone();
         Self {
             title: channel.title,
             feed_link,
@@ -46,6 +53,7 @@ impl Podcast {
             subtitle: channel.subtitle,
             author_name: channel.owner.name,
             author_email: channel.owner.email,
+            image_link,
             episodes: channel
                 .items
                 .into_iter()

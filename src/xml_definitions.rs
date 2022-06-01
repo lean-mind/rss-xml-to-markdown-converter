@@ -13,8 +13,16 @@ pub struct Channel {
     pub description: String,
     pub subtitle: String,
     pub owner: Owner,
+    #[serde(rename = "image")]
+    pub images: Vec<Image>,
     #[serde(rename = "item")]
     pub items: Vec<Item>,
+}
+
+#[derive(Debug, Serialize, Deserialize, PartialEq)]
+pub struct Image {
+    #[serde(rename = "href")]
+    pub link: Option<String>,
 }
 
 #[derive(Debug, Serialize, Deserialize, PartialEq)]

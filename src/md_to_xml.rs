@@ -32,6 +32,7 @@ mod tests {
                 subtitle: String::from("Habilidades esenciales en un mundo tecnológico"),
                 author_name: String::from("Carlos Blé"),
                 author_email: String::from("carlos@carlosble.com"),
+                image_link: String::from("https://podcast.carlosble.com/wp-content/uploads/2021/10/nicero_niuno.jpg"),
                 episodes: vec![Episode {
                     title: String::from("E32: ¿Para qué impartir una ponencia?"),
                     link: String::from("https://podcast.carlosble.com/podcast/e32-para-que-impartir-una-ponencia/"),
