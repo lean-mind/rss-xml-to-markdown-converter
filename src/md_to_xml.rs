@@ -10,10 +10,17 @@ fn read_md(filename: &str) -> Podcast {
 
 fn markdown_to_xml(podcast: Podcast) -> String {
     let handlebars = Handlebars::new();
+    let mut podcast_json = serde_json::to_value(&podcast).expect("Couldn't convert Podcast to JSON");
+    podcast_json = add_build_date(podcast_json);
     let template = String::from_utf8_lossy(include_bytes!("../xml_template.handlebars"));
     handlebars
-        .render_template(&template, &podcast)
+        .render_template(&template, &podcast_json)
         .expect("Couldn't render the template")
+}
+
+fn add_build_date(mut podcast_json: serde_json::Value) -> serde_json::Value {
+    podcast_json["build_date"] = serde_json::Value::String(chrono::Local::now().to_rfc2822());
+    podcast_json
 }
 
 #[cfg(test)]
@@ -59,6 +66,10 @@ mod tests {
             .zip(expected.split("\n"))
             .enumerate()
             .for_each(|(line_number, (actual_line, expected_line))| {
+                if actual_line.contains("<lastBuildDate>") && actual_line.contains("<lastBuildDate>") {
+                    // We don't test lastBuildDate line because it changes everytime
+                    return ()
+                }
                 assert_eq!(actual_line, expected_line, "\nDifference in line {line_number}:\nactual:\t{actual_line}\nexpected:\t{expected_line} ")
             });
         Ok(())
