@@ -28,7 +28,7 @@ pub struct Episode {
 impl Podcast {
     pub fn from_rss_feed(rss_feed: RSSFeed) -> Self {
         let channel = rss_feed.channel;
-        let links = dbg!(channel.links);
+        let links = channel.links;
         let feed_link = links[0]
             .feed_link
             .as_ref()
