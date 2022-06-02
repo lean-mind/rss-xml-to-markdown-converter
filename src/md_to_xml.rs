@@ -2,13 +2,13 @@ use crate::yml_definitions::*;
 use handlebars::Handlebars;
 use std::fs::read_to_string;
 
-fn read_md(filename: &str) -> Podcast {
+pub fn read_md(filename: &str) -> Podcast {
     let file_content = &read_to_string(filename).expect("Can't read the RSS file");
     let yaml = &file_content[0..file_content.len() - 5];
     serde_yaml::from_str(yaml).expect("File with wrong format")
 }
 
-fn markdown_to_xml(podcast: Podcast) -> String {
+pub fn markdown_to_xml(podcast: Podcast) -> String {
     let handlebars = Handlebars::new();
     let mut podcast_json = serde_json::to_value(&podcast).expect("Couldn't convert Podcast to JSON");
     podcast_json = add_build_date(podcast_json);
