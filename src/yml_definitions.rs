@@ -1,6 +1,8 @@
 use crate::RSSFeed;
 use serde::{Deserialize, Serialize};
 
+/// Podcast is a curated representation of the data present in the XML
+/// It is the structure that the markdown will use 
 #[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
 pub struct Podcast {
     pub title: String,

@@ -1,5 +1,6 @@
 use serde::{Deserialize, Serialize};
 
+/// RSSFeed is the direct representation of the XML data
 #[derive(Debug, Serialize, Deserialize, PartialEq)]
 pub struct RSSFeed {
     pub channel: Channel,
